@@ -1,0 +1,1 @@
+FieldWeave 原生版本保留原项目的 DSP 顺序、配置 v1 与四路路径命名。Python 原型仅用于开发期数值交叉验证，不是应用运行依赖。参考实现原工作目录：/Users/zhuyongfei/Documents/Codex/2026-10-05/camilladsp-headphone-spatial/outputs/prototype。验证结果位于 ../Documentation/Native-Verification.json。

@@ -1,0 +1,5530 @@
+{
+  "verified": true,
+  "scope": "Bundled data bank and provenance; runtime DSP and runtime elevation interpolation were not executed",
+  "independent_method": "Read source SOFA directly with h5py, select exact elevation rings, independently bracket azimuth +/-30, reconstruct unshifted raw-coefficient convex sums, cast once to Float32, compare every WAV sample and declared routing/hash. No importer script invoked.",
+  "audio_device_opened": false,
+  "implementation_under_test_executed": false,
+  "profile_count": 7,
+  "wav_count": 308,
+  "sample_rate_hz": 48000,
+  "samples_per_wav": 418,
+  "elevation_grid_degrees": [
+    -50,
+    -40,
+    -30,
+    -20,
+    -10,
+    0,
+    10,
+    20,
+    30,
+    40,
+    50
+  ],
+  "ui_range_degrees": [
+    -45,
+    45
+  ],
+  "exact_direction_route_count": 252,
+  "same_ring_azimuth_interpolated_route_count": 56,
+  "zero_degree_files_byte_identical_to_original_count": 28,
+  "all_output_coefficients_exact_after_float32_rounding": true,
+  "max_float32_quantization_error": 5.9443773681167045e-08,
+  "largest_quantization_error_case": {
+    "profile": "c02",
+    "elevation": 10,
+    "route": "LL",
+    "max_error": 5.9443773681167045e-08
+  },
+  "independent_ear_normalization_detected": false,
+  "independent_onset_alignment_detected": false,
+  "distance_metres": 1.47,
+  "license": "CC BY 4.0",
+  "fixed_commit": "04c6c172a4e80c795656811b0eebd493d56af3e7",
+  "listener_localization_validated": false,
+  "manifest_sha256": "668d5092237c59019c1eb1db126e5bbb1cdbf7a2ed55dcde230c3dc2d864f3fc",
+  "profiles": [
+    {
+      "id": "c01",
+      "donor": "pp35",
+      "source_sha256": "398863b6d5a9ed50c6394d1b3005abb5c547757506ac7e48041b2b0ec5cbe3af",
+      "source_bytes": 2688417,
+      "wav_count": 44,
+      "all_coefficients_equal_independent_float32_reference": true,
+      "max_float32_quantization_error": 5.939773584096031e-08,
+      "entries": [
+        {
+          "elevation": -50,
+          "route": "LL",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.520891956818815e-08,
+          "wav_sha256": "329a7434a824194e07f285a9c69a1868fbed09ede34afa110b65dc940cec1169",
+          "path": "c01/down50-LL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "LR",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.286408448825554e-09,
+          "wav_sha256": "0488990494e8a93adc7e9b3502f629778ea1db76694595f771f2a5dd5e304fc5",
+          "path": "c01/down50-LR.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RL",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.42283902992979e-08,
+          "wav_sha256": "5f3a976e8760c419679d19862f1dcbb62e347b4103d164508dade797b2ce3812",
+          "path": "c01/down50-RL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RR",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.6204925340778118e-08,
+          "wav_sha256": "d4e89d5229838c242b13664559fd70a1090c692366a091e091c0793aceb96224",
+          "path": "c01/down50-RR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LL",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.5517144014154383e-08,
+          "wav_sha256": "03f18f9c5148f3347b167c2ab080ae097fee5ef20a1de36be02f3c3e3d330513",
+          "path": "c01/down40-LL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LR",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.2032186887162055e-09,
+          "wav_sha256": "0309a9c28ff6cae9b870483c573789e564ff99530e24ec43f16f9ee97a0394da",
+          "path": "c01/down40-LR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RL",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.877624608714328e-09,
+          "wav_sha256": "9fb188b1e704b5ea7458f3a541367c983611d25bb936b8ec6b2a7394a312540c",
+          "path": "c01/down40-RL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RR",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.910733872991017e-09,
+          "wav_sha256": "bddf2ad054537774862fb3a8b195a1f563047ea806627ca66e1e887eda2eaba3",
+          "path": "c01/down40-RR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LL",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.6017095589025985e-08,
+          "wav_sha256": "b469ba557f3017f185c8ddc53bf0c2925ee9bfc0fbcb6dce1f845cfd35e3477c",
+          "path": "c01/down30-LL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LR",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.035704963602839e-09,
+          "wav_sha256": "09993d3e55485a66aeeda0cb828ef6e20c4cc24f6bd9d59cb541fc2e65da0233",
+          "path": "c01/down30-LR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RL",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4599824904593106e-08,
+          "wav_sha256": "6b0a2eaca3767758581dc154df3f96e804465e891e956f267f1aebd9c035d891",
+          "path": "c01/down30-RL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RR",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.5657495239528316e-08,
+          "wav_sha256": "d28e3ad0a9c9550e309e104db9e8998086eb29dd5f75f1ba88feb089c2c65f87",
+          "path": "c01/down30-RR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LL",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.8652638150994392e-08,
+          "wav_sha256": "7bf12f404670054cb6adede0804d4553fb129986811491f719c76e37de5b5820",
+          "path": "c01/down20-LL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LR",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.759208332456467e-09,
+          "wav_sha256": "65255d56595a1887167774d6fa4c3339288ceacd4d6ff8eca48377772d8c4e19",
+          "path": "c01/down20-LR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RL",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.366259990870816e-09,
+          "wav_sha256": "d84ac25fcfde36b9e0392afc282c628fca3635caf80c54f116b6a8c8fce25d33",
+          "path": "c01/down20-RL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RR",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.724797931730194e-08,
+          "wav_sha256": "e354fb6c19d81b9656f6947a2b2c12f77ab1781d00c8c54a9618dfdb286ac0d6",
+          "path": "c01/down20-RR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LL",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.0023701080850174e-08,
+          "wav_sha256": "6122843279693b15e07d64796381f7f27c33f5ab8a9a58bf248f7e1bf40aacf5",
+          "path": "c01/down10-LL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LR",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.951728387909583e-09,
+          "wav_sha256": "a4d82385a112241ae993f50750ec9bb965e73c76204f6aed3d75654d064317b3",
+          "path": "c01/down10-LR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RL",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.043834877011989e-09,
+          "wav_sha256": "b7a5c441dc3c45d962d9a141507ce931fa5afaadb323bc8ed4a62e3a14307b83",
+          "path": "c01/down10-RL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RR",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.89552078980293e-08,
+          "wav_sha256": "73f14ba97e992007e9ad8086a6f8dfa1d74ddf70fa7bd1aef7329a141cfacdc3",
+          "path": "c01/down10-RR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LL",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.8826588560626476e-08,
+          "wav_sha256": "0266029df4ab5967774f022782704a057d212338266154a34b0bf22bdd332232",
+          "path": "c01/zero-LL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LR",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.592967782825809e-09,
+          "wav_sha256": "93af6def0b31af0a6e8e0b378462c36f22f58d119f7747d2bb0f999508b87432",
+          "path": "c01/zero-LR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RL",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.38744879105846e-09,
+          "wav_sha256": "e513985f39b95c3f3f40c9584813c6fe41f99022e90cf544ee737c8cfa583cf7",
+          "path": "c01/zero-RL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RR",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.622415146673717e-08,
+          "wav_sha256": "af495f156a91e2b1346c36f09ec3eff88f5b9b574f614a2aec89622dcbb7dc28",
+          "path": "c01/zero-RR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LL",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.9795456879533333e-08,
+          "wav_sha256": "9e1c19e07ebec992939bf9fcb47f9728a2fe587af0560ca1163c4e0a5f0c0326",
+          "path": "c01/up10-LL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LR",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4874914855411703e-08,
+          "wav_sha256": "8147beeb61e786f817e17c734005de882e590e109cb304b995fc7bf1b96db894",
+          "path": "c01/up10-LR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RL",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1445148384581216e-08,
+          "wav_sha256": "a6db547553aa80986362f4f7c58fb3c9469569ceef9b92874e9db7c5b75f3b12",
+          "path": "c01/up10-RL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RR",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.664260910836049e-08,
+          "wav_sha256": "4b49d8cffc497c731059d0eb5d22225602e055eb9e8009e945b2520686f80ca7",
+          "path": "c01/up10-RR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LL",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.5764472373098783e-08,
+          "wav_sha256": "6e9f2dc40daa4c85b13b6afd032a839f7ee8285689d009a7b213ae55ad1ec8bd",
+          "path": "c01/up20-LL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LR",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.463904800302345e-09,
+          "wav_sha256": "fd46b895dd9baa7c765b87d2149fe860e85b1c6d726070ddfe6e6dd9a7c25fa0",
+          "path": "c01/up20-LR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RL",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.430494722676201e-08,
+          "wav_sha256": "58566aaa16a589a239144711b3a0fce401713c1e9746ac840242b62965319cb9",
+          "path": "c01/up20-RL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RR",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.779241463166329e-08,
+          "wav_sha256": "e204a3ddbaaeba03581b3f20a9271ff2cd465dc3dcaaeec3e44b426671e42918",
+          "path": "c01/up20-RR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LL",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.9257919864633664e-08,
+          "wav_sha256": "a3efe6fde0bbe418d14001624b36b7098c1a1ab70e1423a820c0d901bb8b8dd7",
+          "path": "c01/up30-LL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LR",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.436873227297582e-09,
+          "wav_sha256": "c834289d6e8fa493add94ad2bd1965ceeab67c1b6605826d7ef115e51ed0e927",
+          "path": "c01/up30-LR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RL",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4059875375060926e-08,
+          "wav_sha256": "35ce47158a136ef2474b73a861f9d950cff4092444e3744f47af35f78546e660",
+          "path": "c01/up30-RL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RR",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.939773584096031e-08,
+          "wav_sha256": "a4cb7dfa36f9be98f696f0c77b0b8c17846f56f5dae4bcd23d56fcff723f58ef",
+          "path": "c01/up30-RR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LL",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.808021286135556e-08,
+          "wav_sha256": "9fde8aee372b90c7204565bb2d12fdd492ac03b8d4d0bd58fc71d5d2bf915926",
+          "path": "c01/up40-LL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LR",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.028569171645515e-09,
+          "wav_sha256": "e9868456b682f3e31d97eaf99cb0dcf7dc0f05bdeb759be871e55bcd443283ce",
+          "path": "c01/up40-LR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RL",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2567140550423517e-08,
+          "wav_sha256": "3afce1e203e2764b1482c4a3f9e8ffa51f62c3a68237695e89601f3b0a9b1402",
+          "path": "c01/up40-RL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RR",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.2668091514965738e-08,
+          "wav_sha256": "a99503c6e95b3d9dbbbd008fcc4ed282475fb62376bdc9e4e8fe9dca6ac2531e",
+          "path": "c01/up40-RR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LL",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.581300377421883e-08,
+          "wav_sha256": "0c5606c221ca498b5452c51175643cd920f71fb70cf52cb6c53d571e4b0baa4e",
+          "path": "c01/up50-LL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LR",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.972716134890362e-08,
+          "wav_sha256": "9c2b108c0003d116e8631ddb0f3006b117aa27010bf4ca692458746178b3beda",
+          "path": "c01/up50-LR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RL",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2864559195691072e-08,
+          "wav_sha256": "0a9e93cc9120afe1a0e350cc24fdffe290d0d8bb0a74aaac0b53e303fc8e9fba",
+          "path": "c01/up50-RL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RR",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.3779154079715e-08,
+          "wav_sha256": "ba1ab99e4a83a98485f7873265463d4a60804e21b2ed1417f7bd6e7bf88e55c0",
+          "path": "c01/up50-RR.wav"
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "donor": "pp29",
+      "source_sha256": "d99e2aa802a40f860093403c2f4c94e720081d62e6123524944a8a2c9887f774",
+      "source_bytes": 2688537,
+      "wav_count": 44,
+      "all_coefficients_equal_independent_float32_reference": true,
+      "max_float32_quantization_error": 5.9443773681167045e-08,
+      "entries": [
+        {
+          "elevation": -50,
+          "route": "LL",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.638755675603676e-08,
+          "wav_sha256": "afae8a9c244f4827f002cd3ff9f583b911d15379fd36145136447d464b8a3605",
+          "path": "c02/down50-LL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "LR",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.323550071935969e-09,
+          "wav_sha256": "391151d4c6056db0f9e9ffa4007066a6352cae7f39b8d676820b893ddc048d39",
+          "path": "c02/down50-LR.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RL",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2172232222162904e-08,
+          "wav_sha256": "5845fa6c0af18fd95e07a8df032d7ecdb0f85d221c171ef41f0365be8bd70493",
+          "path": "c02/down50-RL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RR",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.5419557903028078e-08,
+          "wav_sha256": "657e1a37725640b59aa8c3ca1210b3170a6a31ee607540c34107107a5c0358bf",
+          "path": "c02/down50-RR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LL",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.5395460017941787e-08,
+          "wav_sha256": "61ac070aea3fa6f54e585af262619deddfd6c63aed778efdfcf8aeabf9095c72",
+          "path": "c02/down40-LL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LR",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.753543141391205e-09,
+          "wav_sha256": "d003bd67d0ad22f4b4f12ba59fc7879258be8eafa8e1a9bf29c9da8935bde756",
+          "path": "c02/down40-LR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RL",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.342190494474821e-09,
+          "wav_sha256": "6b12eaa31b87357a4b3d5cd21938378f89c2385d903a03ecb8ad93f6fe7e8047",
+          "path": "c02/down40-RL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RR",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.093844459454374e-08,
+          "wav_sha256": "2494db9b83d3bf928080b063d43228f2fddcaf6270b60a18c0aad2784956943e",
+          "path": "c02/down40-RR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LL",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.7556606108092296e-08,
+          "wav_sha256": "dfff629c3579b8b750641187b72b43323036b8e1420690fc414e5cdbf06226f8",
+          "path": "c02/down30-LL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LR",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.9670560714764065e-09,
+          "wav_sha256": "2832a0b9ac38b5e7c35c0cda7d82834ecbf5983566adfead7da0d7b231b2e984",
+          "path": "c02/down30-LR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RL",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4770000278385709e-08,
+          "wav_sha256": "a7d263365a62303ff64ee52fd5a4676c8d9717d326aaf04601109ff53145f557",
+          "path": "c02/down30-RL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RR",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.6344815995393844e-08,
+          "wav_sha256": "d1c4c54ea7b9fa4a0d5689401fab4c4af7f0191a05f00c3cb82cc7aa040b0491",
+          "path": "c02/down30-RR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LL",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.378346796229948e-08,
+          "wav_sha256": "b096cc2d304c76f5bdcea5023c2596c838503872be4a1691ead29782b01b1e21",
+          "path": "c02/down20-LL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LR",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.896546526722005e-09,
+          "wav_sha256": "1f6635e604cb936fa96c8094e0c10367e4664747a2cdd4fddd695015073771fc",
+          "path": "c02/down20-LR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RL",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2518191261357003e-08,
+          "wav_sha256": "2057524a41d79d2a43026a6ab35904f2406e6eb8d558988a2c15a5260eeb45b9",
+          "path": "c02/down20-RL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RR",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.932974945719536e-08,
+          "wav_sha256": "e94dcdcb223a90cc0b7ab6bdf035dc9ce1f24ab0212c0f76d3ea9eb5f64e6d9b",
+          "path": "c02/down20-RR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LL",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.5236807754680513e-08,
+          "wav_sha256": "ed6a589de6f10bb012a832818a0d46b8ecff2c7f889a2b1bcfbe1302aabfec80",
+          "path": "c02/down10-LL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LR",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3187645642176449e-08,
+          "wav_sha256": "8cd01781f49489d7cd1df515d5bbebf183661161db701641ad34a1ec9ff8ba7b",
+          "path": "c02/down10-LR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RL",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0198201727540379e-08,
+          "wav_sha256": "14d1c472310985b3cea0bcebe1d046248f16d231675cb472285d912d47004074",
+          "path": "c02/down10-RL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RR",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.0119396854952925e-08,
+          "wav_sha256": "a57e90a10fb3b95d4050fe61406befc618c82c521265302787156ebc56e9d9eb",
+          "path": "c02/down10-RR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LL",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.8082731251544146e-08,
+          "wav_sha256": "63b07e68b86b66f502b1fd8db57515e0378bddc6acee2a092889771e7184e295",
+          "path": "c02/zero-LL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LR",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3051732083990686e-08,
+          "wav_sha256": "a70df49ca5e46b35dfba0bcc51653fa7756494b977d28800ad9eb3678b7e81d2",
+          "path": "c02/zero-LR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RL",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0316720144842861e-08,
+          "wav_sha256": "ef03d280b2435613e1dfa800c3bae6701d5b76717b449c0ce532a77ce5242a3d",
+          "path": "c02/zero-RL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RR",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.7758702225710863e-08,
+          "wav_sha256": "af64a00184e36bf56c825e4bb73ac40ae25a30534cda3dfbcbfc033e9632d25c",
+          "path": "c02/zero-RR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LL",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.9443773681167045e-08,
+          "wav_sha256": "665f7f14d91988c77334997699b4c6ba5542fc6611c575da99cc772d3f1e28a0",
+          "path": "c02/up10-LL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LR",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.143517081025891e-08,
+          "wav_sha256": "94ecb5628424c6b93427dbf2ea6b2f22b69c4fa628f36bac52e207e37c4e007f",
+          "path": "c02/up10-LR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RL",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2918931646677123e-08,
+          "wav_sha256": "1828530a149b72a6164d884f42292e77749a42ef9e1eeaab735b543082d25d66",
+          "path": "c02/up10-RL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RR",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.743322839535381e-08,
+          "wav_sha256": "f544c4f868deee3dbdb01c3120b4881d769495a0eaa8d060eac67386e2f32825",
+          "path": "c02/up10-RR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LL",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.6285776262043896e-08,
+          "wav_sha256": "1dbd7cc1ac9b64015adb422a4a720e01297e2791f6f843bb90e67ae2340a1891",
+          "path": "c02/up20-LL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LR",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4538058146218447e-08,
+          "wav_sha256": "30ae4f68aab34b34c19f93e58fa340085f2a1269671370f82f15029602987fb7",
+          "path": "c02/up20-LR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RL",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.68465252543038e-09,
+          "wav_sha256": "a15cda0330bd7fed2dcfe156240d51333c414e9df3827caa350a2323e3eebd49",
+          "path": "c02/up20-RL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RR",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.78749115298649e-08,
+          "wav_sha256": "ba99ecbab0730212a35fb523aa9b85ff874a5ca1ef16c94f37287315fbdc0f73",
+          "path": "c02/up20-RR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LL",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.479385107281075e-08,
+          "wav_sha256": "5f7be7b7f29727632fa231b1585f2e54a812946c3279c502503ac07e621d244d",
+          "path": "c02/up30-LL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LR",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.8494777598299095e-08,
+          "wav_sha256": "4675efbe841162c5def4b9369ff6a4a59e6f847a25847a5b4efea878cc048986",
+          "path": "c02/up30-LR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RL",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3627617978517748e-08,
+          "wav_sha256": "03eb6661769feeb6fa8fb0dbbcf24b4286f110341e19ad0ffc59221a317113d2",
+          "path": "c02/up30-RL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RR",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.733319609011687e-08,
+          "wav_sha256": "899fb65cb1df26fa4b9b37e5c74d2db7232b20f5a48d57edc9be65e5a4c8556a",
+          "path": "c02/up30-RR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LL",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.2328028426166213e-08,
+          "wav_sha256": "6315fc0143291cb6410602d9a57cc40ccb41c5b913ab32ba70e58eb1296fda1a",
+          "path": "c02/up40-LL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LR",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.217388301277822e-08,
+          "wav_sha256": "77869279f25b627a3fab788cd3301802fbc5be64b79b0c8b0e75f03aa63d67fc",
+          "path": "c02/up40-LR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RL",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1608864591838852e-08,
+          "wav_sha256": "415d9e0606ed7695808740fa86332fe5fbf0007264754727837d6e30fed42087",
+          "path": "c02/up40-RL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RR",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.478315463960712e-08,
+          "wav_sha256": "997639487f4ec307e77622e789aa934b3e317122a6b67001c62c7da16f3ebb4d",
+          "path": "c02/up40-RR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LL",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.0299061431749976e-08,
+          "wav_sha256": "52458404f5daa484d15947d4f4f858f7d3ebdba053ae35c8bd03c27a32da76c7",
+          "path": "c02/up50-LL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LR",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.5295221250942745e-08,
+          "wav_sha256": "cf1d5ee22956ec9a38ab132949bd002f67eacf7792df64c74963d67e75579642",
+          "path": "c02/up50-LR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RL",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3880242955011113e-08,
+          "wav_sha256": "e7dd82954744bd5b339524963fd303dc99c45b88473affdc1f48eb2a579b3179",
+          "path": "c02/up50-RL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RR",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.240049527621693e-08,
+          "wav_sha256": "2a7db2e17c2e5084be8daf317185a6dd3fa0df71b30b71899d72644eef5d18c3",
+          "path": "c02/up50-RR.wav"
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "donor": "pp32",
+      "source_sha256": "e5d609920388c9705f2db583057c6c974b83148f5e621b5665300394d3404d19",
+      "source_bytes": 2689300,
+      "wav_count": 44,
+      "all_coefficients_equal_independent_float32_reference": true,
+      "max_float32_quantization_error": 5.659245516653755e-08,
+      "entries": [
+        {
+          "elevation": -50,
+          "route": "LL",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.3878083843520415e-08,
+          "wav_sha256": "d39260e644b5dc0b40d774cd5d84b41651a9186c574d411107965699c7e03189",
+          "path": "c03/down50-LL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "LR",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.679434700311958e-09,
+          "wav_sha256": "a233234a3e560fbf37531774d20cb462b3f559c9daf34ab4d86f4ef213ad1385",
+          "path": "c03/down50-LR.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RL",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.035140478888863e-08,
+          "wav_sha256": "e2d9d542d2d89a0782fd78c0d93e4670861072f380c391d413e70457412bdb40",
+          "path": "c03/down50-RL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RR",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4771574186056569e-08,
+          "wav_sha256": "8d0ccb7ea908b8378a9ab29f8edde19be84a987f4b4589a77fb40b96792fb930",
+          "path": "c03/down50-RR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LL",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1265424482154174e-08,
+          "wav_sha256": "2ff6e4ca63d659b53918ba006c5a7f9557adbc3f9097c938178cf38b31ce5cb6",
+          "path": "c03/down40-LL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LR",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.3949947559649445e-09,
+          "wav_sha256": "a920670e514475bbbb5cd1704d5eea1ecc8dc43651fd07de01227e32b9cd0244",
+          "path": "c03/down40-LR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RL",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.801765623481003e-09,
+          "wav_sha256": "61baf67cd46a01450bf5f130330e709f1b526c1a8b7bd7cb6ba94dc67cb4cf1d",
+          "path": "c03/down40-RL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RR",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.425410369383712e-09,
+          "wav_sha256": "96d6778a216276dcd83ccd18d300c9a850bf7421e78cd091c60f6c97275dc686",
+          "path": "c03/down40-RR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LL",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.8228481552261542e-08,
+          "wav_sha256": "2c786349fe65b6d80ae9628b58217395eb6a658143dc5e3c99d673b5a854425c",
+          "path": "c03/down30-LL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LR",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.9678014202303444e-09,
+          "wav_sha256": "01861999f4e1f729db3be177ec7978b2184cc2421e5dd125b1faf60fd0d628e4",
+          "path": "c03/down30-LR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RL",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.268676576772549e-09,
+          "wav_sha256": "0250f68be623bf4dec0c08cebdd2caac56caa759ab3eb4a7777cea0b4fc2e2fb",
+          "path": "c03/down30-RL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RR",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.7595095875021514e-08,
+          "wav_sha256": "1cae9793328023c9d276d08bb8aad75d28a2c5859d6067639e135e5a7be5f379",
+          "path": "c03/down30-RR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LL",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.9628797748593172e-08,
+          "wav_sha256": "a28b0ca80f9e4771bbbc98ca0615c4b036f3ddc3cd42106d6f1696902eb75b65",
+          "path": "c03/down20-LL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LR",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.218717651413797e-09,
+          "wav_sha256": "3646371e1e298bc28e672d3a4879d5ad7b5239c5300caf35b557fdbc862c1153",
+          "path": "c03/down20-LR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RL",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1337489502771803e-08,
+          "wav_sha256": "2ef4d0a18dbc4e0deaaafed35f920f82ec2fbbdfeec6bd70be8737ad680e3d12",
+          "path": "c03/down20-RL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RR",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.5056910940280943e-08,
+          "wav_sha256": "01a6cbe4a35439d19ab3e8807a1d229ed9d6855d68364af2d1c26a1ae6792b47",
+          "path": "c03/down20-RR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LL",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.3835348805789636e-08,
+          "wav_sha256": "dfb57dcbe6d037cff20fd39ffaa18897021d27cdcda5df331ae6c4d67558220b",
+          "path": "c03/down10-LL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LR",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.141054526536237e-09,
+          "wav_sha256": "58f8b1a96bfe410f67244917f26ce54004ad938715323d297f9054a56e36cc9e",
+          "path": "c03/down10-LR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RL",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2790281611607668e-08,
+          "wav_sha256": "01478495cfbccb3ec7813487a3e431bbe5333c690dea99f0d5a57029a817be38",
+          "path": "c03/down10-RL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RR",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.3174782648460734e-08,
+          "wav_sha256": "530ef90c2494ee3e70d812585d8e70100736480023c92bc35c14b9253ac85d39",
+          "path": "c03/down10-RR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LL",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.4912630736118047e-08,
+          "wav_sha256": "7098ba216168c580ba6143ba19ee2f60434193a05e297e406db9951dfb8d9d2c",
+          "path": "c03/zero-LL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LR",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.1439298648657825e-09,
+          "wav_sha256": "0e172c5f66588b4df24f489526135aa7e5d503627d05eeb8823f7b8b12af296a",
+          "path": "c03/zero-LR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RL",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.633477571213689e-09,
+          "wav_sha256": "64b31a6fdbe79c42e59b5333120d23cbbd64f828234cd8944aae8af52d095c01",
+          "path": "c03/zero-RL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RR",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.917650949145866e-08,
+          "wav_sha256": "dc80a15605619e7ff4f7764e566abf2528f3672ac0daedb2e8a60f84e2d5f6c5",
+          "path": "c03/zero-RR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LL",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.659245516653755e-08,
+          "wav_sha256": "b9f379f0cb39983bae24bacd7d7b18ef2c062f049244329f6a88dfed17e1dafe",
+          "path": "c03/up10-LL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LR",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.65642302388747e-09,
+          "wav_sha256": "771cc3e7d59bafc2c91c0c77a741042f81daa30e5a0eb66317050a5f10a6adec",
+          "path": "c03/up10-LR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RL",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.916638121776344e-09,
+          "wav_sha256": "1ce6317d2ef28917cc3493945601ce77e2f5dece1d0be21a6d6cf919ffbacd56",
+          "path": "c03/up10-RL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RR",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.8199863999489594e-08,
+          "wav_sha256": "357b849027f5b162e62ee77534190004c2ac5a580a2595616bc1a8107a5c3e99",
+          "path": "c03/up10-RR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LL",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.055239848950066e-08,
+          "wav_sha256": "def799733a73573d57092bf3a07a119d3a605d4b2a4e30e916417150ba5d19cf",
+          "path": "c03/up20-LL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LR",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0919041337764668e-08,
+          "wav_sha256": "7b3f5f7964dea70e26370c84eae4f8d49dc05f1b347629874b515e4a57b5913c",
+          "path": "c03/up20-LR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RL",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2505266711038132e-08,
+          "wav_sha256": "3c29d5bf60bae5451155142b8d1f31ca81bdd4d14340c16a333a8126a3b0642f",
+          "path": "c03/up20-RL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RR",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.279532163029785e-08,
+          "wav_sha256": "9c7668a631d56f2cb6447bcb3f3e6d3186267ab3963dd8ad50f0cd822286db8e",
+          "path": "c03/up20-RR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LL",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.9271129681495154e-08,
+          "wav_sha256": "408519de1fc885663458c5b10432aee5d249bcb3694a5ce84241110b1813e11a",
+          "path": "c03/up30-LL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LR",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4030642703222185e-08,
+          "wav_sha256": "7922b4c16b7e7376e83cf612cfacb682dc7d26a24056f7850d046384aea36885",
+          "path": "c03/up30-LR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RL",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3448259561510412e-08,
+          "wav_sha256": "c5d2bf1a3360a6fa82bbce6478d72ff12bbd0e35a3d93777dc7b947bceb60f2a",
+          "path": "c03/up30-RL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RR",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.4400807818736325e-08,
+          "wav_sha256": "17d4ff1bb9f9ca73b90bdd7bedd136f3fe4b2e1fda2d6a02875a222c6f994fae",
+          "path": "c03/up30-RR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LL",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.1135816147553896e-08,
+          "wav_sha256": "18bb93c2e76169f1129140d26f751b619d73dd97d585a975379ebb3c0995f3fe",
+          "path": "c03/up40-LL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LR",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0548049100833623e-08,
+          "wav_sha256": "eccdcb6e357e89e1cfda7505508776373df848ada94d1a3e7a317091807cb78a",
+          "path": "c03/up40-LR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RL",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.904204900657021e-09,
+          "wav_sha256": "f141049d6d6e7b5e096ddaea32607df941ce3062859ac660f857cb16691ac5e0",
+          "path": "c03/up40-RL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RR",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.4264190656708706e-08,
+          "wav_sha256": "fe864096b7d1a453ad3e81665807592a9d1beee77bbc1a240e3be78cfeea0457",
+          "path": "c03/up40-RR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LL",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.2011410794629e-08,
+          "wav_sha256": "af72b2f9dd5b32f2380778dc7b6883ea88c6b1463abce2f5b4abeadf5cb7a155",
+          "path": "c03/up50-LL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LR",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3470127235848395e-08,
+          "wav_sha256": "77455f198f93cd03b1e0c27b16e3a6c12480f9397bb9a1e5576dd7a7ec59905e",
+          "path": "c03/up50-LR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RL",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2190308207316036e-08,
+          "wav_sha256": "23b9e94db2d0a85ed82139f74a7014981f1a8e917bf7a0178a53c3e327f11a38",
+          "path": "c03/up50-RL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RR",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.0335541472960017e-08,
+          "wav_sha256": "937de0e9a69c36b2c506d04e621a585b4502604821fdbc611592f189120226f6",
+          "path": "c03/up50-RR.wav"
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "donor": "pp49",
+      "source_sha256": "2e8e7f4ec28f6b758f37791eec1d6cedf597d4feb3d79180bfad23218feb9bc2",
+      "source_bytes": 2688777,
+      "wav_count": 44,
+      "all_coefficients_equal_independent_float32_reference": true,
+      "max_float32_quantization_error": 5.8062984642504034e-08,
+      "entries": [
+        {
+          "elevation": -50,
+          "route": "LL",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.5645228607373838e-08,
+          "wav_sha256": "b9b0e16deb03282bb87aec5a7c2f007414b20a5d0cfd2fcc7668198cc2e72fd7",
+          "path": "c04/down50-LL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "LR",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.014085554418287e-08,
+          "wav_sha256": "5a353506592e3432f8b8160bffd8d19f706813163f1e049d88b427e6c9412e3c",
+          "path": "c04/down50-LR.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RL",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4255618352443378e-08,
+          "wav_sha256": "477eff3a89a12a39133112df4b653e699d3f1496f5376f7ee92c9373dc7cf2c0",
+          "path": "c04/down50-RL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RR",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.983871933397552e-08,
+          "wav_sha256": "0cd1f73e4471e10054404b6ddf02a1bc8b34cca5a1a166be551a489f9e6dc869",
+          "path": "c04/down50-RR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LL",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.8079467589693365e-08,
+          "wav_sha256": "b287c2a5a0a22aa469d444fcd366067b51057f9c09c91c8968a26f87341fb6b4",
+          "path": "c04/down40-LL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LR",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.447470029564585e-09,
+          "wav_sha256": "3a175440765519195978dc5085dd9b5d673460a4f5ba883b3a47ee3979f9dc67",
+          "path": "c04/down40-LR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RL",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.959185838706361e-09,
+          "wav_sha256": "58aa48bd331e1d9a4a866561e671f932a5d217699c9d9c66006f46e78dd99588",
+          "path": "c04/down40-RL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RR",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.93648854121642e-08,
+          "wav_sha256": "ba32d383d823f07cfe287c629bf6d5ce6e9f4d91cdff27e5dc04f2d150300d44",
+          "path": "c04/down40-RR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LL",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.7258720169953676e-08,
+          "wav_sha256": "dac5d130639d0443a4e0736d1940c627ccdd14db2dbce2cf1024d34292c1bf8b",
+          "path": "c04/down30-LL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LR",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3393796127747493e-08,
+          "wav_sha256": "baa0fa51047e9df2afffe18dc609daa0429a07eccd74528d9058124d8bc5efde",
+          "path": "c04/down30-LR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RL",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.628805115926895e-09,
+          "wav_sha256": "cdb10fa8906095ae97f11908525b3f000478b967b8b5fbbab8753e766ee43e8d",
+          "path": "c04/down30-RL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RR",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.7351864429501234e-08,
+          "wav_sha256": "3a14047a62fcddf544daaf069d0b35f4a66998e1a14745f3d124b85d81748c58",
+          "path": "c04/down30-RR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LL",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.532973107984617e-08,
+          "wav_sha256": "f0ce0de008aef25edaccfba60893747e89c5f6c19204f63b4cad793f1d3c5d48",
+          "path": "c04/down20-LL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LR",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.294724527589608e-08,
+          "wav_sha256": "48ab91cf819a2aa9b3a502101924d40adabbfc91dbc48103ea7d9789fd825486",
+          "path": "c04/down20-LR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RL",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1355796525336359e-08,
+          "wav_sha256": "07ac1d98064030b8c9ad76edb7872a885c88e578aa4bcbd55426cfcafff770c3",
+          "path": "c04/down20-RL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RR",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.631083162452086e-08,
+          "wav_sha256": "1c8178f181278ea1f67f1d2131b0e641ab7b5c46155e5bd2c341f38ffbf44104",
+          "path": "c04/down20-RR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LL",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.9999722706008924e-08,
+          "wav_sha256": "5648097210f96363a21485d7a579d680204de9ab4b6cd2fc7d7aeff39f9c6271",
+          "path": "c04/down10-LL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LR",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.074024866935645e-09,
+          "wav_sha256": "8cfd48d78575238f5fbdecca840de68f3fb3843468749c393c4cddc7e4be4108",
+          "path": "c04/down10-LR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RL",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.3587515808372075e-09,
+          "wav_sha256": "4b8df66eb86dc0e5b630729513822b2857c7deb258e161f151cb251b6863fb94",
+          "path": "c04/down10-RL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RR",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.6404097797083637e-08,
+          "wav_sha256": "35069c0a52475a34e3b3149111f8856a1d66280a46680325ed3feac104432933",
+          "path": "c04/down10-RR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LL",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.834765882615443e-08,
+          "wav_sha256": "795e895021a6fe5ded3fc9296c9717adb7bd1189a9d6d2a84d407e30df69c77f",
+          "path": "c04/zero-LL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LR",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3874485726983465e-08,
+          "wav_sha256": "75ca6028ab1eac580fa47a6c9fef3c5e99e1bf47914b0b4d94bd21cf677d2664",
+          "path": "c04/zero-LR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RL",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3690714117942093e-08,
+          "wav_sha256": "50996ab7dc347883cb09a9c5ae509bc2654216cffacec8bf15b648243049fa5a",
+          "path": "c04/zero-RL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RR",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.4220658246274525e-08,
+          "wav_sha256": "f19184b055317a775e5ce3e55cd140dd935e613519c5b179d180813833beb4e3",
+          "path": "c04/zero-RR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LL",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.7688192183461524e-08,
+          "wav_sha256": "1c2f181b37d4a1b97da6d400e55d05a75c033e733fd4a6505d883324fb055bbf",
+          "path": "c04/up10-LL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LR",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.024693718765235e-08,
+          "wav_sha256": "0eb3dd040f5d6abfe3eda77b3cc21679fe9f2b1e2b85f6f83d119dd69fd24448",
+          "path": "c04/up10-LR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RL",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4690952454543549e-08,
+          "wav_sha256": "5d8da46818d4fab816a7efc585b3ee499c91c2aeb47cc0f38fb81af49738c0e6",
+          "path": "c04/up10-RL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RR",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.591551451214258e-08,
+          "wav_sha256": "9a42366a738e52ef8d28304ce49e157f8551377f17f2ebdbe67f474211f500d1",
+          "path": "c04/up10-RR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LL",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.8062984642504034e-08,
+          "wav_sha256": "830151080867c2b302c06bb8b3be7d935ca7a08d3f2f57a43c41029718100e5e",
+          "path": "c04/up20-LL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LR",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.543541569177137e-09,
+          "wav_sha256": "7e6287372464c2b5aa8ac35bdbf75701216afbc1042c3be2d45c5a5c519dfa69",
+          "path": "c04/up20-LR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RL",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.055366383173606e-08,
+          "wav_sha256": "2652432d4b8226d3479f0829db98052e340cf5c71738e502088d64e4832e6b00",
+          "path": "c04/up20-RL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RR",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.516406997863044e-08,
+          "wav_sha256": "98e1a3469a52d4e3d27775c3b1dc584009d1dd86a79ac3950d441205008c553c",
+          "path": "c04/up20-RR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LL",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.224312655232154e-08,
+          "wav_sha256": "96c90c9a005645e8463d05999fe1f18e183014e55c2df2926c2b744d134d7704",
+          "path": "c04/up30-LL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LR",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.591181321904173e-09,
+          "wav_sha256": "90bd359e3d0d5b2c68cd21f48044ef2d0fc42859f6e7dae4a8a4052dcc22bcdb",
+          "path": "c04/up30-LR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RL",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.139830753872701e-09,
+          "wav_sha256": "75664b09edc6c481fbde4c49cc9fb4a48eb981dd638726d9e35d3af959268673",
+          "path": "c04/up30-RL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RR",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.740376691181325e-08,
+          "wav_sha256": "0ba6b2acba6f6ce7c70e83d0fddc459586944b18b76fd09d4bdb822b1d2c8b4c",
+          "path": "c04/up30-RR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LL",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.916073871261915e-08,
+          "wav_sha256": "bf745a77705c4f5c831aac655ab7505332160ff8308af5acd2a5b45d7e908e79",
+          "path": "c04/up40-LL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LR",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.443483460539241e-08,
+          "wav_sha256": "a2e5b0430e994aa8d18e57b75ed77555654ae3f965db9e788d5a586715a038c6",
+          "path": "c04/up40-LR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RL",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3055999448230438e-08,
+          "wav_sha256": "2bb574324d1e04e31b4e3b59ac599f0aea7e1a8f82f3a57c3537390c7a36e8ab",
+          "path": "c04/up40-RL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RR",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.733320801975083e-08,
+          "wav_sha256": "249dc297c6a8d10a08438994f09d9a02965c37298b8ea1b7813de0f118885324",
+          "path": "c04/up40-RR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LL",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.571885181547941e-08,
+          "wav_sha256": "07eddbde65bb907df56881acde527e393d7e5d00c049d8389c5fe90d9242ee89",
+          "path": "c04/up50-LL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LR",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2639594204610916e-08,
+          "wav_sha256": "560a57126409a71efddb98a7016eda605b5de3245f732e688d4bd5d36d3aa4ef",
+          "path": "c04/up50-LR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RL",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3711511814840094e-08,
+          "wav_sha256": "8f6a0dfda6527172b96c26f4337aeae9f9314401d5945b11a4072fec747cd59d",
+          "path": "c04/up50-RL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RR",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.800761115892783e-08,
+          "wav_sha256": "a7c6dee772a1e9a338ec1e6bb8ac5e8efc66c4090d53664533047cba560dd0a9",
+          "path": "c04/up50-RR.wav"
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "donor": "pp60",
+      "source_sha256": "1648994cb37c707d2391eb5dc8c6ef4b52add474134d70b94c809907ec5ae04b",
+      "source_bytes": 2689377,
+      "wav_count": 44,
+      "all_coefficients_equal_independent_float32_reference": true,
+      "max_float32_quantization_error": 5.6767855971529e-08,
+      "entries": [
+        {
+          "elevation": -50,
+          "route": "LL",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.969712437599469e-08,
+          "wav_sha256": "e01347c858ef05e7351bfd610d5ecee91f8723c443d987d0a3f2545bf6a78353",
+          "path": "c05/down50-LL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "LR",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.385354938715949e-09,
+          "wav_sha256": "830ebfe0393115caac92f6be7f37feda8502aeaeb6e51d4902c0ac3beed39fce",
+          "path": "c05/down50-LR.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RL",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4662281389021814e-08,
+          "wav_sha256": "3288051017392a35d323de67c54d6cdb9fc7842c16cf1d812a026939b628d50b",
+          "path": "c05/down50-RL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RR",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.8317565131376057e-08,
+          "wav_sha256": "3028b4fcc9bf6a688cccacc9696d1b0025dd60497c351c4eea735b940f35dc8e",
+          "path": "c05/down50-RR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LL",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.0995428950953965e-08,
+          "wav_sha256": "9f4778fca8a21d3bd81c27bcf927db9f791fbe61639932533417724584261019",
+          "path": "c05/down40-LL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LR",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.6947827842268595e-09,
+          "wav_sha256": "108c15a17eed8a2501590920075195fa4ced48ad6fd9aa75eba6c5ae9b851466",
+          "path": "c05/down40-LR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RL",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.255299473898688e-09,
+          "wav_sha256": "a12017b4744010c88a1ff545b0cc9770418ba55e89fc7bfa6f61e43afe61810f",
+          "path": "c05/down40-RL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RR",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1905050945060225e-08,
+          "wav_sha256": "6cd76417027013bd002a75fde8cc7f5eb17bc6d22ec8f0d2f8089436828018ba",
+          "path": "c05/down40-RR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LL",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4178798357633582e-08,
+          "wav_sha256": "ba271d604f92f2eedbfbbb581c9035c2013d8c02d2d345af8e0b4df9cda29372",
+          "path": "c05/down30-LL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LR",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.1187746808476504e-09,
+          "wav_sha256": "3672accf03d755978393a8b944fdf207b58d7c02794baa502a39bc8477ea5bba",
+          "path": "c05/down30-LR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RL",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.805880329949446e-09,
+          "wav_sha256": "fbb6f76045f1f0d01e4976aa75e79a0985194db6044aa6c38e12d01cdd60ffb9",
+          "path": "c05/down30-RL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RR",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.0773295406637544e-08,
+          "wav_sha256": "85fbb6441f636dfb8fd6b024a2499c1cd522683895317693ce4b5af5cec71cf2",
+          "path": "c05/down30-RR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LL",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.857675302474604e-08,
+          "wav_sha256": "4287039a5d60016d5e1a398bbc1e375cb62d1f7b613ac232886c44034e1812ef",
+          "path": "c05/down20-LL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LR",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0290556240466486e-08,
+          "wav_sha256": "f2452886bb9e1329fecf9985bafc40743bdd9c639a115bcfddd67877fd51c5fa",
+          "path": "c05/down20-LR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RL",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.5232363122280645e-09,
+          "wav_sha256": "e179b0c34cdc99b272f0a38972469eccb389425073ac5798624882a72218aa5d",
+          "path": "c05/down20-RL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RR",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.9771056175853516e-08,
+          "wav_sha256": "35860558f3099a97350cc2d8015b1e5456cfaa485d0a22c9fec9e030c51fa33f",
+          "path": "c05/down20-RR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LL",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.6767855971529e-08,
+          "wav_sha256": "cac06b7921dfe4024e993a0230d17cd875bca47a70743bcd8a9f8bc09073c2f0",
+          "path": "c05/down10-LL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LR",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1782729680831494e-08,
+          "wav_sha256": "0677e05694ef61eea05712fb48e814fd826cffa81c4fbf8ba006101398b129cd",
+          "path": "c05/down10-LR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RL",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.246960446010803e-08,
+          "wav_sha256": "b667007b5d6d3ee297db60e07195e24704e41af0a4c787107da2ef32b28fb569",
+          "path": "c05/down10-RL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RR",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.707674516879479e-08,
+          "wav_sha256": "5a6700629c26fb876463c2c9266d9cf6ca9f9234ebf7252fee04931713806e48",
+          "path": "c05/down10-RR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LL",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.5797134095562058e-08,
+          "wav_sha256": "f7b61d80e876c15140e556116b4b34934d177004eb79dd2bcdacfad11edd0035",
+          "path": "c05/zero-LL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LR",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2375035440825854e-08,
+          "wav_sha256": "60d091d222c03b88d44eeae15313d544ed1823630c873e09ff7596ef2872f091",
+          "path": "c05/zero-LR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RL",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.26515775212522e-09,
+          "wav_sha256": "ae3fd72a59fe0c3a95775b33d4cc046d81d5694dffd945f14855882e62898884",
+          "path": "c05/zero-RL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RR",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.9785857618970226e-08,
+          "wav_sha256": "17b7a9312f1a71c3894342f25420f935fffb023a027054d851a16b4285a49979",
+          "path": "c05/zero-RR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LL",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.255021202048681e-08,
+          "wav_sha256": "78a0d693e69af4c9042bec745d7bd864018a026f93efaa03d88265bc44566e10",
+          "path": "c05/up10-LL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LR",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.039782604461692e-08,
+          "wav_sha256": "35c032dcb9ac9399aa3802f9a42af8fd4dbdae43a37f84d1e17c882055410db1",
+          "path": "c05/up10-LR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RL",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.0561891607479055e-09,
+          "wav_sha256": "71d6068d5bdc4821f2355c98d6def2b54a2e7250747d22d56ad87137cf50d3ac",
+          "path": "c05/up10-RL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RR",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.782625685426865e-08,
+          "wav_sha256": "e3205c5c5974b5646fe2f072b4d710f5d77261197d58b36ae0aeffb50f22d3d8",
+          "path": "c05/up10-RR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LL",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.966128026000604e-08,
+          "wav_sha256": "16a9bd64a3be4286437c2d6196e5aeca57d775a4079cd888277cd7f058e07ab4",
+          "path": "c05/up20-LL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LR",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2356566603255459e-08,
+          "wav_sha256": "86da6047c2c666f16abd3fc07f2848d9451bd80d3d4d5d50c3f72cdbb7449e69",
+          "path": "c05/up20-LR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RL",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2426119022634907e-08,
+          "wav_sha256": "312f7295e6f919664d64bd2ea405e207f997639efb08c30b5da00b736943869f",
+          "path": "c05/up20-RL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RR",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.859675750701342e-08,
+          "wav_sha256": "69f5086f5411d3f3384ba3be03f21c445039b5bc1434e35d1a9ccf0a21f04af8",
+          "path": "c05/up20-RR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LL",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.873826964235661e-08,
+          "wav_sha256": "3eb8b9f1a68b093f0f0da400bd39775905990c50e66847bf134c4bce6618c273",
+          "path": "c05/up30-LL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LR",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.1962495327644262e-08,
+          "wav_sha256": "68b620bdabd3d14a898e63b921dcbecc202593eecfffa8b77633d4b8a9f89400",
+          "path": "c05/up30-LR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RL",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3435255075133767e-08,
+          "wav_sha256": "31361de1c9b5c683a1b5580873648e4aad0bad94521511c8e6ef8a575ec54e97",
+          "path": "c05/up30-RL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RR",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.721925228601265e-08,
+          "wav_sha256": "30ba6943ad719331af4c5490cafe72f4703745e1eeaf39612187dba3cd427a20",
+          "path": "c05/up30-RR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LL",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.6955601195588486e-08,
+          "wav_sha256": "0ac5e4f15cb34f812a04dff24f9fce66d71de0257c6c0703bc68bd104e540825",
+          "path": "c05/up40-LL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LR",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.144266261915888e-09,
+          "wav_sha256": "5c339096328b1b19f33037273163d4c96528a6e1bd25c0c8b4a93b4cf918079f",
+          "path": "c05/up40-LR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RL",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.206482743882248e-09,
+          "wav_sha256": "b2925f17ca8faf3b2a3e40feac950ac7de6df6aac4d4e5a04123a255d2cedaac",
+          "path": "c05/up40-RL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RR",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.957200873066057e-08,
+          "wav_sha256": "27440116ccf3331c38c6c0a7c9c1b89e6d85381020f3295ab01e6bb2cdc7b4d3",
+          "path": "c05/up40-RR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LL",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.0178352584140384e-08,
+          "wav_sha256": "059cf99dae7cfa586a1b26ff8c2d73ef3d1e79b078d0ccf02d119cb5572c0036",
+          "path": "c05/up50-LL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LR",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4618843580116447e-08,
+          "wav_sha256": "117d0fdd55c96a19d352b2d3914e9d2273f8f033219dfad06169c18ea51100c4",
+          "path": "c05/up50-LR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RL",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4289765815078681e-08,
+          "wav_sha256": "dfa6c1b8bf9af25c45f3f2b428b89d3edd1804c7ddc8cb1bc4c255e6651fd726",
+          "path": "c05/up50-RL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RR",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.7341936603697548e-08,
+          "wav_sha256": "d3c47d44172edae3f1f16f22c384445211645298489159aa787d785ca709f6e8",
+          "path": "c05/up50-RR.wav"
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "donor": "pp86",
+      "source_sha256": "34f448aaad282b5929538ee6649f1b5bdc643a1dfc88ff1457a441f20da0a82e",
+      "source_bytes": 2688813,
+      "wav_count": 44,
+      "all_coefficients_equal_independent_float32_reference": true,
+      "max_float32_quantization_error": 5.905462718835963e-08,
+      "entries": [
+        {
+          "elevation": -50,
+          "route": "LL",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.852086744553617e-08,
+          "wav_sha256": "8e5ebd1baaa77628c2c3d04ad573e3286ff7f64981f04d73f30fe051ca58917a",
+          "path": "c06/down50-LL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "LR",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.580710531003177e-09,
+          "wav_sha256": "11b1f28896227cd6c9a404f709ae52f7aca7b7a7971eaad9d7323910f14962c2",
+          "path": "c06/down50-LR.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RL",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3457869652011567e-08,
+          "wav_sha256": "ce81780915867ac951c219b95864b4de58c050ac3f88354bf2b32f5c5a9721ab",
+          "path": "c06/down50-RL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RR",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.8590179002030425e-08,
+          "wav_sha256": "e16a38754a3b495ec41c8ea4c69f24f5c293f089754b6c33d95b21c8fcf42448",
+          "path": "c06/down50-RR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LL",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.3978452667883232e-08,
+          "wav_sha256": "01672c333bae84a9d28cbc1ed25af803efa1478332a392fa6274cf6db03d0a46",
+          "path": "c06/down40-LL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LR",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.3500807107329535e-09,
+          "wav_sha256": "e9af004343235862f177321005ef99734a677ce7493f68e54e4ab54698e7e245",
+          "path": "c06/down40-LR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RL",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 6.677927266718342e-09,
+          "wav_sha256": "309cdbe6a8b51ee6851e437f7899bdd6836f3b65eb15f4d97f17d460fcffc546",
+          "path": "c06/down40-RL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RR",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.7905904314829968e-08,
+          "wav_sha256": "03c4f1915d8bf904b9081348b0624167292946417bc75dccbabc8de2aa5ba11b",
+          "path": "c06/down40-RR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LL",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.957369266669673e-08,
+          "wav_sha256": "0393c44e7db65b666a38552294503988cc41e863eae99639ea78a5118807bacc",
+          "path": "c06/down30-LL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LR",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.160039060596148e-09,
+          "wav_sha256": "2daa096e0ea2f8c296ed8e006f25c564fefa741b3f6372f5e56234277b3e425f",
+          "path": "c06/down30-LR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RL",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4583544649671154e-08,
+          "wav_sha256": "1b85bbe2bbf5b6ec3f102a64d9d405f0d0a4d409394965da8b3d63aeb6075156",
+          "path": "c06/down30-RL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RR",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.186713643492766e-08,
+          "wav_sha256": "740d5f7dbca324d1c356bc8a1f995b9ca7f8244a152bba3459d23a28a88a8fad",
+          "path": "c06/down30-RR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LL",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.873770521549801e-08,
+          "wav_sha256": "f80a0c2ac3ea6366f3bb65c4e0b44bd53dbdbbafa22ec327bad744f51a4678ad",
+          "path": "c06/down20-LL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LR",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4870024711566288e-08,
+          "wav_sha256": "9f6b60593b9611de7ccdff6a120131170da9500e483aed7f97f522cb3cee89e9",
+          "path": "c06/down20-LR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RL",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.409346200853534e-08,
+          "wav_sha256": "0be2358ecee4e269f56125246da452aff130be43ebcb75d4947fdca335ec65b3",
+          "path": "c06/down20-RL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RR",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.7285039783109255e-08,
+          "wav_sha256": "fe93d0f7bf74db0e662f87597158263836ed12a1a1e0ad276334af9accf541f8",
+          "path": "c06/down20-RR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LL",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.399680331168554e-08,
+          "wav_sha256": "acaf9b6b2a2eba1c34500b7c0a1f8f592b0ac30f367220f9d3d4da6cba8f2aca",
+          "path": "c06/down10-LL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LR",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.049219595880231e-09,
+          "wav_sha256": "05c94de887552098f6a9ba73a6c334d6ff632b60e93f357ee9bd6fea87efb839",
+          "path": "c06/down10-LR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RL",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0847686193748984e-08,
+          "wav_sha256": "c58e4c3f90b5cbe43ef1e0664dc84592a8b1a34a19c8f68d71125e29059454bc",
+          "path": "c06/down10-RL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RR",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.561113715022657e-08,
+          "wav_sha256": "03a7b51681b37b453608ffe17d6467f20999be1b0c90724ba021578e30d31e15",
+          "path": "c06/down10-RR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LL",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.14081247676512e-08,
+          "wav_sha256": "371ad40d71a30ae2f6c0440783f7e878b8be22cf4c0d77da88e434951ccd6396",
+          "path": "c06/zero-LL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LR",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.684580415392219e-09,
+          "wav_sha256": "5f2f498db56bae0730b285a5c00cb6171a4b353aa8e55bb0b65f0279ba0adabb",
+          "path": "c06/zero-LR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RL",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.108381281200721e-08,
+          "wav_sha256": "3e9dfca1d83b729b6961d1d60721f524ffb0876f0d3e7c97ab4bf559cb27efdf",
+          "path": "c06/zero-RL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RR",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.905462718835963e-08,
+          "wav_sha256": "9e6cac338a0bb166d8b340adaf2e74e7fde38f34669605a71b3a9006a3aa3bf7",
+          "path": "c06/zero-RR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LL",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.350758747191264e-08,
+          "wav_sha256": "ba3554dce58077f615192e70705534210d428de4432f5a2c7377f5351518d664",
+          "path": "c06/up10-LL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LR",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4298629058551171e-08,
+          "wav_sha256": "dd706499218eefb5c1762701c114ed80569ad03cb2f4e5b016354631926d10cc",
+          "path": "c06/up10-LR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RL",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.465478721707214e-08,
+          "wav_sha256": "29c78a7f8387a650fd8c7e5fe2186a369452496256d92e87edd34e7ae4f1cce4",
+          "path": "c06/up10-RL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RR",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.282762528478145e-08,
+          "wav_sha256": "52825f3fa7e387bfac9b1631f18d531c3c8e842a695c3c5d1c8478f6c10fc53f",
+          "path": "c06/up10-RR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LL",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.667927933077465e-08,
+          "wav_sha256": "db522f20aff1eb6cc91f05c962ef0adc8c1240781e97d699efd94c898615579a",
+          "path": "c06/up20-LL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LR",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0688159024496713e-08,
+          "wav_sha256": "ffb3e0c1cbe8ee0813d9d4ece563337c84a2f5789a182ec5f1d253fc926536e4",
+          "path": "c06/up20-LR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RL",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0037808029217388e-08,
+          "wav_sha256": "8a4e0e0c941b3bb4c86ebfce2880355ad1b4142dadf3d8a7e22b07085aa50ba2",
+          "path": "c06/up20-RL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RR",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.140782732837579e-08,
+          "wav_sha256": "2c202af8664745a451f246e240bf1214741e703b4ba404894bc60a5c7f12f4d3",
+          "path": "c06/up20-RR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LL",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.4541034870928513e-08,
+          "wav_sha256": "65334f7d7669c71da50fc3e9d910dfa4a7147e6d96805a6d3001ed932aa4960f",
+          "path": "c06/up30-LL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LR",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4453322649821132e-08,
+          "wav_sha256": "996f553346eb4226f0c3455e82a258ca23e1abd7d63301f95c353a2f3b4f42a7",
+          "path": "c06/up30-LR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RL",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0610554879164624e-08,
+          "wav_sha256": "b2e3494c5ab2686e36273df77c239d670a9d6951c0c55c603fa55639bf159f7b",
+          "path": "c06/up30-RL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RR",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.45914855543117e-08,
+          "wav_sha256": "1e4eebb1e34bb2d0608c1b9efae0b629ec1f3577d2691644c8b75bf866ade4c1",
+          "path": "c06/up30-RR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LL",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.230718270685884e-08,
+          "wav_sha256": "f41c80e7defd3884688b59383d4a36c738c598a50993fb47f9907d0a6a6e1916",
+          "path": "c06/up40-LL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LR",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4616165944225656e-08,
+          "wav_sha256": "c686a575d49f5758a1f50bf081cfc551f0aca3c437fdb05b742daa6eefc5b84b",
+          "path": "c06/up40-LR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RL",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4521325586436262e-08,
+          "wav_sha256": "1c856d9e985d0db5776c475f73fd954ea397423d6b8632d4c8e0bc9f04c719b7",
+          "path": "c06/up40-RL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RR",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.8180108952754495e-08,
+          "wav_sha256": "03809fa1428ce3512f850545cf0de92787499d379e3eec7095a881dc15f99e97",
+          "path": "c06/up40-RR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LL",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.8604445962728846e-08,
+          "wav_sha256": "e7f1eafe8e429b662bc5f95cae0864a4565d12c43cb3c77aa03c5bfcb2f4274d",
+          "path": "c06/up50-LL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LR",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.8975539362031668e-08,
+          "wav_sha256": "1bd5a7d328797830812c24490803d3e9ed8c0c45e1651cdbca6cad0ea08730ae",
+          "path": "c06/up50-LR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RL",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2122001069592159e-08,
+          "wav_sha256": "2bd1f5885f5c19c00c81e1544559ef0bb4ad5d5e600b4bcd32b6f763ce8536f0",
+          "path": "c06/up50-RL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RR",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.4978798019457145e-08,
+          "wav_sha256": "07a7a74e84aa23bede1a17a9476ad8f2a35f03e6cf902dc65c9a5bfb6e591cbc",
+          "path": "c06/up50-RR.wav"
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "donor": "pp13",
+      "source_sha256": "f02dd8cfc93a1d548fe6be24912ef8738be1d4f2f8bc7c423c8a7fc30ee2f04c",
+      "source_bytes": 2686685,
+      "wav_count": 44,
+      "all_coefficients_equal_independent_float32_reference": true,
+      "max_float32_quantization_error": 5.843755923606864e-08,
+      "entries": [
+        {
+          "elevation": -50,
+          "route": "LL",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.4945824961264407e-08,
+          "wav_sha256": "568cb875b6c2382627b941456c71240f44b132bbcd7cd1e3d57294e3587822ce",
+          "path": "c07/down50-LL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "LR",
+          "source_indices": [
+            378
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4487524180317735e-08,
+          "wav_sha256": "95043db0f185624d10f2e84fea67e2cc2b2b4518e63bc4171823ed177f9016e7",
+          "path": "c07/down50-LR.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RL",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2871447518936208e-08,
+          "wav_sha256": "74425c673af06ed5ce983c46a79770728d349e9a77c9cb40820af81cd398a181",
+          "path": "c07/down50-RL.wav"
+        },
+        {
+          "elevation": -50,
+          "route": "RR",
+          "source_indices": [
+            398
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.8424051445874454e-08,
+          "wav_sha256": "c8300dc09b7977c4616bf49c9ac8f84af84a6c32f7c6854c23b42b3d40c7387f",
+          "path": "c07/down50-RR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LL",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.3538405891088132e-08,
+          "wav_sha256": "7373ee9fc3439451aa99c0f0bea398687864f28534156bbc2a4d0b98557819f0",
+          "path": "c07/down40-LL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "LR",
+          "source_indices": [
+            348,
+            349
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.445266570980323e-09,
+          "wav_sha256": "5184e44e257d5afdd634d4e3bd529b02c274d334a27a8513b49f4452d3b613c1",
+          "path": "c07/down40-LR.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RL",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.614890328357717e-09,
+          "wav_sha256": "b7aab0cb6266e429b2716dceb3a3dad7c2d48c532b7545d2739ab23ed4e32bbc",
+          "path": "c07/down40-RL.wav"
+        },
+        {
+          "elevation": -40,
+          "route": "RR",
+          "source_indices": [
+            373,
+            374
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.1249889625707397e-08,
+          "wav_sha256": "415b8e089c5fb92d0cfd9aef3a55c1dda75f6d984e3b059020c948bf0b86f90b",
+          "path": "c07/down40-RR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LL",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.241095668573337e-08,
+          "wav_sha256": "d80514e02c6d2f94995c72d22eda9b0f2124632b30807cb64462203457a40c66",
+          "path": "c07/down30-LL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "LR",
+          "source_indices": [
+            313
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.360881014774947e-09,
+          "wav_sha256": "e06fcebdbf7bc6fb0950c6182aaf6f4b109745ec6237bca90371978ba63446e0",
+          "path": "c07/down30-LR.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RL",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.547673402414802e-09,
+          "wav_sha256": "5b81e670d3669887064758d7c40aabaab68003e311fed2f045940dccc47dff42",
+          "path": "c07/down30-RL.wav"
+        },
+        {
+          "elevation": -30,
+          "route": "RR",
+          "source_indices": [
+            343
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.5441984852214716e-08,
+          "wav_sha256": "b1bdbcea3dd6c4af8c1cd6bd9243dc3f34bb818be444dc8700bfb0e9c1867e3e",
+          "path": "c07/down30-RR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LL",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.3079744499175945e-08,
+          "wav_sha256": "8b20836469382ba8566e72d308be699d535e4a1617c702f232875a16c0f51255",
+          "path": "c07/down20-LL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "LR",
+          "source_indices": [
+            277
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2792006787165633e-08,
+          "wav_sha256": "a6a3b86aa88a498bee2e93d0ba5a112825162cb717be645519a52d294a5699e3",
+          "path": "c07/down20-LR.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RL",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2471396082514019e-08,
+          "wav_sha256": "9a14ddd166804830cb669a3ea1b06cd8f9131ad4173365ee9e277e83bf07b5f5",
+          "path": "c07/down20-RL.wav"
+        },
+        {
+          "elevation": -20,
+          "route": "RR",
+          "source_indices": [
+            307
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3459263037418623e-08,
+          "wav_sha256": "691ab4638fc96bbf698342e649d17c69b036cc941226a5595d4f280f7f4fb3e3",
+          "path": "c07/down20-RR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LL",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.717034157193268e-08,
+          "wav_sha256": "4b9aab1586f4f2c83ae052e0b5ba07002f9a65e81a894eb9488212a475ec61c2",
+          "path": "c07/down10-LL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "LR",
+          "source_indices": [
+            241
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 8.36482832999863e-09,
+          "wav_sha256": "f5046b9c2332b00f2f0a4fd0b6168f3833d38b7b1118b20362a87f7d9e39da1e",
+          "path": "c07/down10-LR.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RL",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.823009461396026e-09,
+          "wav_sha256": "8671458492b1b43362d2b991156a0a0c94d09f818bf3e817a18293ffcc4f33fc",
+          "path": "c07/down10-RL.wav"
+        },
+        {
+          "elevation": -10,
+          "route": "RR",
+          "source_indices": [
+            271
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.8048621909279063e-08,
+          "wav_sha256": "d1275537e9491842dbb2b2d9b97068efb25c195409c96f94c257eaef52ac26ee",
+          "path": "c07/down10-RR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LL",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.6640085954740016e-08,
+          "wav_sha256": "d99b99c4965d1b4e6f36c9db6b6784d92a1f440c8f4b942647f08a3b42116a92",
+          "path": "c07/zero-LL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "LR",
+          "source_indices": [
+            205
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.201164001596311e-08,
+          "wav_sha256": "9827659b3676e7b6369f8c83bf2a09379a44e2bd16e313ff8a88e080d064ac5d",
+          "path": "c07/zero-LR.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RL",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.5893232264736525e-09,
+          "wav_sha256": "1b7593497c6178d34bd0a2fe45cc5203d288f3da1b793113f52d3db47f3eed40",
+          "path": "c07/zero-RL.wav"
+        },
+        {
+          "elevation": 0,
+          "route": "RR",
+          "source_indices": [
+            235
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.752279658681857e-08,
+          "wav_sha256": "765ca766f3bf95c68db1941ceb465c23f0364ea6d4b36826af2696d33f597098",
+          "path": "c07/zero-RR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LL",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 4.463197256221463e-08,
+          "wav_sha256": "2df2fb67745702493a31dd7b1d2715a5819fbd9692ef70a04b1be8a545ae1d26",
+          "path": "c07/up10-LL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "LR",
+          "source_indices": [
+            169
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.225476660379428e-09,
+          "wav_sha256": "f20f5923410451c06d381c4e59bb66412716dfa287391a9359cd41d069876263",
+          "path": "c07/up10-LR.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RL",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 9.699823610986869e-09,
+          "wav_sha256": "b19ea82c4a533b76f00fde4e6bd5c5df562ce7358b277b5ae1ba835ef5ea76b5",
+          "path": "c07/up10-RL.wav"
+        },
+        {
+          "elevation": 10,
+          "route": "RR",
+          "source_indices": [
+            199
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.7965577126541916e-08,
+          "wav_sha256": "91b3b77d128fa4ab01404d2de206e2a90d26bb472a53ccead195049dc6896a84",
+          "path": "c07/up10-RR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LL",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.843755923606864e-08,
+          "wav_sha256": "9ef24e56b6e36131996cf0011c2a3284d85669ac27809bbcffadfbe5d6f20682",
+          "path": "c07/up20-LL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "LR",
+          "source_indices": [
+            133
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.0294792740506153e-08,
+          "wav_sha256": "f0f565e063f4640ea869b1498c6c39e59776d2a786cc5c59a28f9b6cf199243b",
+          "path": "c07/up20-LR.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RL",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3360360318070974e-08,
+          "wav_sha256": "0fd81abe62a7dabc30552f65397840a1b30a5a0c8ec9609ca4d32ae0040787ed",
+          "path": "c07/up20-RL.wav"
+        },
+        {
+          "elevation": 20,
+          "route": "RR",
+          "source_indices": [
+            163
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 3.4511312252405446e-08,
+          "wav_sha256": "1907375dd695b22405e4dfd50f205539d7e0de0a921a6c3b4c4fc4d311b66cd4",
+          "path": "c07/up20-RR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LL",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.6581254126442104e-08,
+          "wav_sha256": "bd7cca7885f7ecca3ee0330c0f08e9def7609d12d2774202094aa6d14fdb55d6",
+          "path": "c07/up30-LL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "LR",
+          "source_indices": [
+            97
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.075594946442493e-08,
+          "wav_sha256": "f83675b270ea551ad85e7129f12b258682bab9d77644b16dba7be7406c982ee0",
+          "path": "c07/up30-LR.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RL",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.3817097577195625e-08,
+          "wav_sha256": "3c811d498fac533a59c77f2448ba46ac0ffed50cff93ec9f71da4fb381c0bebc",
+          "path": "c07/up30-RL.wav"
+        },
+        {
+          "elevation": 30,
+          "route": "RR",
+          "source_indices": [
+            127
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.288066851072415e-08,
+          "wav_sha256": "d10aa3c00034e20e6e40c36f166724059ca1f3c4cd7d8d967162147dddc9c791",
+          "path": "c07/up30-RR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LL",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.765260331827335e-08,
+          "wav_sha256": "18f862411b9155174099b0f51fd10d5a5a73e21efb196442bf73ec3d5079996b",
+          "path": "c07/up40-LL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "LR",
+          "source_indices": [
+            66,
+            67
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            24.0,
+            36.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.4361340450186333e-08,
+          "wav_sha256": "9af60da912ac63830c2eb2bd70f7cdc4cfcf02953983d2ba4b8ee79cdabefc97",
+          "path": "c07/up40-LR.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RL",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 7.316979577787208e-09,
+          "wav_sha256": "55611590067069896650c0e30f88067ad6f3102158060a577e8ed10e3f5f11ab",
+          "path": "c07/up40-RL.wav"
+        },
+        {
+          "elevation": 40,
+          "route": "RR",
+          "source_indices": [
+            91,
+            92
+          ],
+          "source_weights": [
+            0.5,
+            0.5
+          ],
+          "azimuths": [
+            324.0,
+            336.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 5.3149235013094653e-08,
+          "wav_sha256": "761beb02ce00ef4f0d5e88cd85dec6e9bf6295eda9f5b61040e84da8ee75cbe1",
+          "path": "c07/up40-RR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LL",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.888237815579231e-08,
+          "wav_sha256": "f6872a7dc92636181b44b317b3a4c7761d9134c0efaf95c09067cee4e98b8a42",
+          "path": "c07/up50-LL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "LR",
+          "source_indices": [
+            42
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            30.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.160130463917497e-08,
+          "wav_sha256": "17e5bb9be1337f871feb3827f3d0ab32fb27425b867898071b5547b7475869ed",
+          "path": "c07/up50-LR.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RL",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 1.2575906815914806e-08,
+          "wav_sha256": "62205f530ae9395803d8806560de19e1f162715c70517ffa65e7359e2b25fafb",
+          "path": "c07/up50-RL.wav"
+        },
+        {
+          "elevation": 50,
+          "route": "RR",
+          "source_indices": [
+            62
+          ],
+          "source_weights": [
+            1.0
+          ],
+          "azimuths": [
+            330.0
+          ],
+          "float32_coefficients_exact": true,
+          "max_quantization_error": 2.868449366921766e-08,
+          "wav_sha256": "95fca4cba2aaf6afeebbb2cba7e58711dfd1fc333d8f13dbec78804448d8f081",
+          "path": "c07/up50-RR.wav"
+        }
+      ]
+    }
+  ],
+  "failures": []
+}

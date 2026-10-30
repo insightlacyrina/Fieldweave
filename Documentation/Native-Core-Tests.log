@@ -1,0 +1,49 @@
+warning: /Users/zhuyongfei/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/zhuyongfei/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/zhuyongfei/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'native-core': failed storing manifest for 'native-core' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/4] Write sources
+[2/4] Write swift-version--1AB21518FC5DEDBE.txt
+[4/6] Emitting module FieldWeaveCore
+[5/6] Compiling FieldWeaveCore Exporter.swift
+[6/8] Emitting module FieldWeaveCoreTests
+[7/8] Compiling FieldWeaveCoreTests FieldWeaveCoreTests.swift
+[7/9] Write Objects.LinkFileList
+ld: warning: building for macOS-12.0, but linking with dylib '@rpath/Testing.framework/Versions/A/Testing' which was built for newer version 14.0
+[8/9] Linking FieldWeaveCorePackageTests
+Build complete! (2.11s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite FieldWeaveCoreTests started.
+◇ Test testRenderRejectsClipAndSampleRateMismatch() started.
+◇ Test testWidthLinearPhaseAndMidDelayAlignment() started.
+◇ Test testExactNeutralAndMonoSidePreservation() started.
+◇ Test testPCMBitDepthsAndNonfiniteImport() started.
+◇ Test testFailedExportLeavesNoPartialTarget() started.
+◇ Test testCrossfeedDelayAndCommonDelay() started.
+◇ Test testSafetyValidationTailAuditAndRateMismatch() started.
+◇ Test testCenterAllMidEqualPowerAndSide() started.
+◇ Test testFFTMatchesDirectConvolution() started.
+◇ Test testWAVRoundtripAndRejectNonfiniteAndTruncated() started.
+◇ Test testOverlapAddPreservesFullTail() started.
+◇ Test testMatrixMappingPortableExportAndTailRender() started.
+◇ Test testPCHIPAnchorsAndShape() started.
+✔ Test testPCMBitDepthsAndNonfiniteImport() passed after 0.135 seconds.
+✔ Test testWidthLinearPhaseAndMidDelayAlignment() passed after 0.135 seconds.
+✔ Test testWAVRoundtripAndRejectNonfiniteAndTruncated() passed after 0.135 seconds.
+✔ Test testRenderRejectsClipAndSampleRateMismatch() passed after 0.135 seconds.
+✔ Test testFFTMatchesDirectConvolution() passed after 0.135 seconds.
+✔ Test testPCHIPAnchorsAndShape() passed after 0.135 seconds.
+✔ Test testFailedExportLeavesNoPartialTarget() passed after 0.144 seconds.
+✔ Test testSafetyValidationTailAuditAndRateMismatch() passed after 0.145 seconds.
+✔ Test testCenterAllMidEqualPowerAndSide() passed after 0.172 seconds.
+✔ Test testCrossfeedDelayAndCommonDelay() passed after 0.180 seconds.
+✔ Test testExactNeutralAndMonoSidePreservation() passed after 0.210 seconds.
+✔ Test testMatrixMappingPortableExportAndTailRender() passed after 0.375 seconds.
+✔ Test testOverlapAddPreservesFullTail() passed after 0.841 seconds.
+✔ Suite FieldWeaveCoreTests passed after 0.841 seconds.
+✔ Test run with 13 tests in 1 suite passed after 0.841 seconds.

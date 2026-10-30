@@ -1,0 +1,58 @@
+{
+  "repository": "insightlacyrina/Personal-HRTF",
+  "commit": "04c6c172a4e80c795656811b0eebd493d56af3e7",
+  "default_candidate": "c01",
+  "personalized_hrtf_validated": false,
+  "headphone_eq": "bypass: no measured NK1 Ultra calibration",
+  "candidates": [
+    {
+      "id": "c01",
+      "donor": "pp35",
+      "configuration": "c01.json",
+      "label": "c01 · HUTUBS pp35",
+      "listener_match_validated": false
+    },
+    {
+      "id": "c02",
+      "donor": "pp29",
+      "configuration": "c02.json",
+      "label": "c02 · HUTUBS pp29",
+      "listener_match_validated": false
+    },
+    {
+      "id": "c03",
+      "donor": "pp32",
+      "configuration": "c03.json",
+      "label": "c03 · HUTUBS pp32",
+      "listener_match_validated": false
+    },
+    {
+      "id": "c04",
+      "donor": "pp49",
+      "configuration": "c04.json",
+      "label": "c04 · HUTUBS pp49",
+      "listener_match_validated": false
+    },
+    {
+      "id": "c05",
+      "donor": "pp60",
+      "configuration": "c05.json",
+      "label": "c05 · HUTUBS pp60",
+      "listener_match_validated": false
+    },
+    {
+      "id": "c06",
+      "donor": "pp86",
+      "configuration": "c06.json",
+      "label": "c06 · HUTUBS pp86",
+      "listener_match_validated": false
+    },
+    {
+      "id": "c07",
+      "donor": "pp13",
+      "configuration": "c07.json",
+      "label": "c07 · HUTUBS pp13",
+      "listener_match_validated": false
+    }
+  ]
+}

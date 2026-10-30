@@ -1,0 +1,25 @@
+{
+  "verified_at": "2026-10-29T16:30:16.763599+00:00",
+  "app": "dist/FieldWeave.app",
+  "app_reopened_without_arguments": true,
+  "auto_start": true,
+  "capture_device_uid": "BlackHole2ch_UID",
+  "physical_playback_device_uid": "AppleUSBAudioEngine:TTGK Technology:NICEHCK NK1 Ultra:1100000:1",
+  "matrix_kind": "measured_hrtf",
+  "matrix_provenance": "HUTUBS measured donor pp35, Personal-HRTF c01, commit 04c6c172a4e80c795656811b0eebd493d56af3e7. Measured DONOR binaural pair; NOT a measurement of this listener; listener match and localization benefit unvalidated. Brinkmann et al. (2019), JAES doi:10.17743/jaes.2019.0024; HUTUBS doi:10.14279/depositonce-8487. CC BY 4.0. Original Float32 48kHz four-path coefficients preserved; ±30 degrees, elevation 0, 1.47m. NICEHCK NK1 Ultra headphone EQ unavailable and bypassed.",
+  "sample_rate": 48000,
+  "active_paths": 4,
+  "states": [
+    "Running"
+  ],
+  "capture_peak_dbfs": -66.51602,
+  "playback_peak_dbfs": -91.01322,
+  "clipped_samples": 0,
+  "quit_restored_default_output_uid": "AppleUSBAudioEngine:TTGK Technology:NICEHCK NK1 Ultra:1100000:1",
+  "quit_left_no_camilladsp_process": true,
+  "headphone_eq": "bypass",
+  "physical_headphone_volume_changed_by_agent": false,
+  "source_commit": "04c6c172a4e80c795656811b0eebd493d56af3e7",
+  "subjective_listener_localization_validated": false,
+  "live_package_cache_count": 3
+}

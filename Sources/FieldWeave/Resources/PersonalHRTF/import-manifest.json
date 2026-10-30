@@ -1,0 +1,557 @@
+{
+  "repository": "insightlacyrina/Personal-HRTF",
+  "commit": "04c6c172a4e80c795656811b0eebd493d56af3e7",
+  "files": [
+    {
+      "path": "artifacts/iteration05/candidate-bank/c01/renderer/CamillaDSP.yml",
+      "bytes": 3432,
+      "git_blob_sha": "f1fa3f71a5ffe92c7d89911a8ac02b1197a0d6cf",
+      "sha256": "7645675fcabfc68a48046586857042e0a39e6255e74bbc099fd40b4c0a2eb0cd"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c01/renderer/Virtual_Speakers.wav",
+      "bytes": 6746,
+      "git_blob_sha": "62179fc5a148fcd0ec90c3513fe5ed641f1d3ca2",
+      "sha256": "ef0d1d971ed9ce77655f9cc3a2bbf998adb52bc617dadf823d392e5d32b459db"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c02/renderer/CamillaDSP.yml",
+      "bytes": 3428,
+      "git_blob_sha": "47469ba7bdb9a7ddd8c67e19de711f1eb7908564",
+      "sha256": "7e2b3bd37954943f39f62f7158a33c2b5eb1fdfddb37a7f7df133e471e6047b0"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c02/renderer/LS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "a793cad36ffb7f67375717d5b9d84bdc82fc27a1",
+      "sha256": "63b07e68b86b66f502b1fd8db57515e0378bddc6acee2a092889771e7184e295"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c02/renderer/RS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "957df03ca351373774df4bb6fb1a0c6ed4195e5b",
+      "sha256": "ef03d280b2435613e1dfa800c3bae6701d5b76717b449c0ce532a77ce5242a3d"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c03/candidate-manifest.json",
+      "bytes": 13943,
+      "git_blob_sha": "3c3208030c7460e067bf7968fcb3e519ce9dc575",
+      "sha256": "ecfc285a5e453b08349ecb3d893402c917198c4853e7c966aab6af63b6a7d868"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c03/renderer/CamillaDSP.yml",
+      "bytes": 3424,
+      "git_blob_sha": "851c9d9d0c33fe0aa00d3aa1ca482f9efa944461",
+      "sha256": "7f001d7e117f862bb06c1ac2fd353bc4e9e8a71896cbe1011a90170716eee1e0"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c03/renderer/LS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "f25b97ad62d4c3cdf49f637c31e62e6ad29fff3b",
+      "sha256": "7098ba216168c580ba6143ba19ee2f60434193a05e297e406db9951dfb8d9d2c"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c03/renderer/LS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "b51ead5da7d65bfa619fef6a169e50eef774daaa",
+      "sha256": "0e172c5f66588b4df24f489526135aa7e5d503627d05eeb8823f7b8b12af296a"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c03/renderer/RS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "2a93399c00d2baf4795d80e28c1a3fb016bccd4f",
+      "sha256": "64b31a6fdbe79c42e59b5333120d23cbbd64f828234cd8944aae8af52d095c01"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c03/renderer/RS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "b149e20bfd07267f98d76a90e5ba23dfd0c68094",
+      "sha256": "dc80a15605619e7ff4f7764e566abf2528f3672ac0daedb2e8a60f84e2d5f6c5"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c03/renderer/Virtual_Speakers.wav",
+      "bytes": 6746,
+      "git_blob_sha": "6a3f475006553184cc2c4bfdef94d281e534fdaf",
+      "sha256": "dc1cd0e5844348fd4d2455bf89f05ef5c75a21e9707f14d795990659378092ed"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c04/candidate-manifest.json",
+      "bytes": 13944,
+      "git_blob_sha": "3eb4862b6d92fd53985c4371a387ef0579f3035f",
+      "sha256": "827cf2c2e6bbb2954a9e70f2720aad88b99dd41fb715bc5a1e087495a445cd8a"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c04/renderer/CamillaDSP.yml",
+      "bytes": 3424,
+      "git_blob_sha": "31f8b8e6c9eafd0798f74f5f9017e9b916db785b",
+      "sha256": "b4646e240af57a7e857acd12a3bd38246a3dcf70b3fa4f0e981bab45dbf53dc4"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c04/renderer/LS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "fb750909ce597d8c088f93b73b405b96b31476df",
+      "sha256": "795e895021a6fe5ded3fc9296c9717adb7bd1189a9d6d2a84d407e30df69c77f"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c04/renderer/LS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "fdba6441b8872a5042ded59d99317448499e82b3",
+      "sha256": "75ca6028ab1eac580fa47a6c9fef3c5e99e1bf47914b0b4d94bd21cf677d2664"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c04/renderer/RS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "7700fb336b85eaa2107d93cb79b7ae6ee9bcd5bf",
+      "sha256": "50996ab7dc347883cb09a9c5ae509bc2654216cffacec8bf15b648243049fa5a"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c04/renderer/RS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "368e2a8ca757328ad13d33e5171c3f616ef18b90",
+      "sha256": "f19184b055317a775e5ce3e55cd140dd935e613519c5b179d180813833beb4e3"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c04/renderer/Virtual_Speakers.wav",
+      "bytes": 6746,
+      "git_blob_sha": "d62a9aa3973196a15e54df7c43cb0d7ef9181e9d",
+      "sha256": "65be2cc846df9d294025870bca535bbf966af15a33d6c413af52daf7dfaca7e2"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c05/candidate-manifest.json",
+      "bytes": 13947,
+      "git_blob_sha": "d022906b1c84931649e81e89d32a44950b47aafe",
+      "sha256": "4fbf9eecea2c515cecf59576957b05b15aadc657a824345c3519ed1a279fcc86"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c05/renderer/RS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "1174b4d8f89605050ff2ef62b1075e312d66ae9a",
+      "sha256": "17b7a9312f1a71c3894342f25420f935fffb023a027054d851a16b4285a49979"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c06/renderer/CamillaDSP.yml",
+      "bytes": 3432,
+      "git_blob_sha": "801aba57b1d16c33abcd2a69fb60ed7647e5421e",
+      "sha256": "0d0b1afbeca39e620df57f8ffeb1a25acc502e42aa962b22380c5966e6a5600f"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c06/renderer/LS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "9c929600a54fb36d76970f2988fcaf16a98363f5",
+      "sha256": "371ad40d71a30ae2f6c0440783f7e878b8be22cf4c0d77da88e434951ccd6396"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c06/renderer/LS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "e757a03e3f0ee55bc1252e088b62c87674a90545",
+      "sha256": "5f2f498db56bae0730b285a5c00cb6171a4b353aa8e55bb0b65f0279ba0adabb"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c06/renderer/RS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "6631d6fd993b013aca7c1ee14143ba450b6a9bca",
+      "sha256": "9e6cac338a0bb166d8b340adaf2e74e7fde38f34669605a71b3a9006a3aa3bf7"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c06/renderer/Virtual_Speakers.wav",
+      "bytes": 6746,
+      "git_blob_sha": "b39ffdac90a45a561cd371217053806093d2397c",
+      "sha256": "138895928d94ab5ca0ec31b2b924d5d07065e0c8af25d29e7467b4cbcd68b959"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/candidate-manifest.json",
+      "bytes": 14103,
+      "git_blob_sha": "5d8fbd4b69d1b399159b9e0d493ee397fd1d6d45",
+      "sha256": "f6ff9c5ab497be8a116adea96eb593b1f691dd99d69bc0fc0db1260f45711863"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/LS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "4ad3636473c2b2e72f9fe7734d944b192a610f2f",
+      "sha256": "d99b99c4965d1b4e6f36c9db6b6784d92a1f440c8f4b942647f08a3b42116a92"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/LS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "efbe99707f521ac44f9a20de5824bcaa98d83693",
+      "sha256": "9827659b3676e7b6369f8c83bf2a09379a44e2bd16e313ff8a88e080d064ac5d"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/RS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "36e519e3539a587afbda928ef11c07db908ef9a3",
+      "sha256": "1b7593497c6178d34bd0a2fe45cc5203d288f3da1b793113f52d3db47f3eed40"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/RS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "37cfb294e5795b0f403fa66d0dbc1b492201fa20",
+      "sha256": "765ca766f3bf95c68db1941ceb465c23f0364ea6d4b36826af2696d33f597098"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/Virtual_Speakers.wav",
+      "bytes": 6746,
+      "git_blob_sha": "23d211657f4c672fa4e4f35a362adbe851117855",
+      "sha256": "d82296cbfb0b9d0d3aa84eaf188fa9d61f65ea135b7c3c580437820c7484337e"
+    },
+    {
+      "path": "docs/iteration05-candidates.md",
+      "bytes": 7231,
+      "git_blob_sha": "fea5fe3a0e907ff4a1dc3c0dce9f5d79a133e742",
+      "sha256": "3a77e5a00cf18726955e21c321a1532176c92d78c41b2618d011013468a07a6a"
+    },
+    {
+      "path": "docs/project-state.json",
+      "bytes": 13870,
+      "git_blob_sha": "c5a6b3bc71f99ce5835315afdab1341e8a4d2d5c",
+      "sha256": "4f84c41bd66e61de9b4024ca167e8cced5404cf8d3a1acbc033ae64876533777"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c01/renderer/LS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "aca2e829181cf31ccd33a870fe2341115a51dabb",
+      "sha256": "0266029df4ab5967774f022782704a057d212338266154a34b0bf22bdd332232"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c01/candidate-manifest.json",
+      "bytes": 14212,
+      "git_blob_sha": "ff80524d0b623a122134c70eebb5e216c4dd9912",
+      "sha256": "08fd4e3427eb88d0c07c2becafdd30b258864163dd36cae8093eb25f127a8cee"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6404,
+      "git_blob_sha": "eccdf810f82adb2d98fe24e565fa8f12167222d8",
+      "sha256": "8a3a6a898d0b09528f7edea3c841273c66ab4167d1bb24c3da52837e4b10710c"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/ATTRIBUTION.txt",
+      "bytes": 1244,
+      "git_blob_sha": "13c31b7e4c65adb09bf353317c6449ed01b0ea18",
+      "sha256": "eea337880327eee1877e5075cf3e52b19d9df417aaa1bbc2e07a6e9784d5333e"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c01/renderer/LS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "daa041839498adffe883e2f5fe27c76419f78952",
+      "sha256": "93af6def0b31af0a6e8e0b378462c36f22f58d119f7747d2bb0f999508b87432"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c01/renderer/RS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "fa5bd56af66a9b63ae1c1bee14fc5f30f833de84",
+      "sha256": "e513985f39b95c3f3f40c9584813c6fe41f99022e90cf544ee737c8cfa583cf7"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c01/renderer/RS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "a7f339ab15462c066c74c02f34e9050b6dd32ce0",
+      "sha256": "af495f156a91e2b1346c36f09ec3eff88f5b9b574f614a2aec89622dcbb7dc28"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c02/candidate-manifest.json",
+      "bytes": 14208,
+      "git_blob_sha": "aff71e19a6bc860080ec0011f1b33ee33861aca9",
+      "sha256": "b0ee16c336211d8f22d16f4a6add0200734699a5e541c709a9af378d619f8ce5"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c02/renderer/LS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "901f9faca84c9a84dd9f4c22630c763a3a60af31",
+      "sha256": "a70df49ca5e46b35dfba0bcc51653fa7756494b977d28800ad9eb3678b7e81d2"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c02/renderer/RS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "6b8210e1ab3bdaf39cf06ac6044314fecf4ca58e",
+      "sha256": "af64a00184e36bf56c825e4bb73ac40ae25a30534cda3dfbcbfc033e9632d25c"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c02/renderer/Virtual_Speakers.wav",
+      "bytes": 6746,
+      "git_blob_sha": "121307f1eb4b92ada79708af54fdc1a8fc274e55",
+      "sha256": "d07bbd59722ec9183fe61a3b99060d010abfb5b72648427a060e7a8c606e18a4"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c05/renderer/CamillaDSP.yml",
+      "bytes": 3432,
+      "git_blob_sha": "e67a2f68e7eae0b4e4f81f4c2702a83efc03ac6b",
+      "sha256": "393b201487f90068ab4bc2a4dcff48752763a5fbe0df713a8edebf150027b8f7"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c05/renderer/LS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "36a132e0bfb649f8dfed3cb10d172e002434eb30",
+      "sha256": "f7b61d80e876c15140e556116b4b34934d177004eb79dd2bcdacfad11edd0035"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c05/renderer/LS_RE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "85d8dc81af86e39be26df5fbe0c80be9ae7100c9",
+      "sha256": "60d091d222c03b88d44eeae15313d544ed1823630c873e09ff7596ef2872f091"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c05/renderer/RS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "41d679b114207cac47351dcc2d11f110666796d7",
+      "sha256": "ae3fd72a59fe0c3a95775b33d4cc046d81d5694dffd945f14855882e62898884"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c05/renderer/Virtual_Speakers.wav",
+      "bytes": 6746,
+      "git_blob_sha": "5150a1dddb0c7013cf81054354cd383007413a24",
+      "sha256": "423f50fabb056a9dd6d5b702ff288a0eabfe55b91944321a1a9a9e5df6ad7d62"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c06/candidate-manifest.json",
+      "bytes": 13945,
+      "git_blob_sha": "b4bb33657639443bdc43a0f9ccee08ee79349525",
+      "sha256": "4815fb24242b8d3ee15530093ceafbe9f36e2841570aecd84703be9791f89d6b"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c06/renderer/RS_LE.wav",
+      "bytes": 1730,
+      "git_blob_sha": "abc63bb0cc515a8058c0a3f3d0e5aa9193cef1c4",
+      "sha256": "3e9dfca1d83b729b6961d1d60721f524ffb0876f0d3e7c97ab4bf559cb27efdf"
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/CamillaDSP.yml",
+      "bytes": 3424,
+      "git_blob_sha": "8b4da3e5fd45e4e7d23f03b26811c99f1fdbb304",
+      "sha256": "dc13bbbf435feba949bdad13bfa275238f33b74d8a11b0983ec54a9b6ee1e273"
+    }
+  ],
+  "selection": "Seven fixed ±30-degree measured-donor four-path renderers and provenance. No personal measurement or NK1 Ultra correction.",
+  "verification": {
+    "all_git_blob_hashes_match": true,
+    "candidate_product_sha256_matches": true,
+    "coefficients_transformed": false,
+    "listener_match_validated": false
+  },
+  "mono_wavs": [
+    {
+      "candidate": "c01",
+      "path": "LS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.5466182231903076
+    },
+    {
+      "candidate": "c01",
+      "path": "LS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.3241546154022217
+    },
+    {
+      "candidate": "c01",
+      "path": "RS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.3824475109577179
+    },
+    {
+      "candidate": "c01",
+      "path": "RS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.0825872421264648
+    },
+    {
+      "candidate": "c02",
+      "path": "LS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.5421969890594482
+    },
+    {
+      "candidate": "c02",
+      "path": "LS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.3318394422531128
+    },
+    {
+      "candidate": "c02",
+      "path": "RS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.3030177354812622
+    },
+    {
+      "candidate": "c02",
+      "path": "RS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.6327635049819946
+    },
+    {
+      "candidate": "c03",
+      "path": "LS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.402944564819336
+    },
+    {
+      "candidate": "c03",
+      "path": "LS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.24906745553016663
+    },
+    {
+      "candidate": "c03",
+      "path": "RS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.31748345494270325
+    },
+    {
+      "candidate": "c03",
+      "path": "RS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.8039248585700989
+    },
+    {
+      "candidate": "c04",
+      "path": "LS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.3472750186920166
+    },
+    {
+      "candidate": "c04",
+      "path": "LS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.358234703540802
+    },
+    {
+      "candidate": "c04",
+      "path": "RS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.34953629970550537
+    },
+    {
+      "candidate": "c04",
+      "path": "RS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.1899396181106567
+    },
+    {
+      "candidate": "c05",
+      "path": "LS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.1367207765579224
+    },
+    {
+      "candidate": "c05",
+      "path": "LS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.3069519102573395
+    },
+    {
+      "candidate": "c05",
+      "path": "RS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.3257587254047394
+    },
+    {
+      "candidate": "c05",
+      "path": "RS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.2524299621582031
+    },
+    {
+      "candidate": "c06",
+      "path": "LS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.3010350465774536
+    },
+    {
+      "candidate": "c06",
+      "path": "LS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.3712906539440155
+    },
+    {
+      "candidate": "c06",
+      "path": "RS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.4025644063949585
+    },
+    {
+      "candidate": "c06",
+      "path": "RS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.238926649093628
+    },
+    {
+      "candidate": "c07",
+      "path": "LS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.7824405431747437
+    },
+    {
+      "candidate": "c07",
+      "path": "LS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.37100374698638916
+    },
+    {
+      "candidate": "c07",
+      "path": "RS_LE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 0.38236188888549805
+    },
+    {
+      "candidate": "c07",
+      "path": "RS_RE.wav",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 418,
+      "peak": 1.4194793701171875
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+[0/1] Planning build
+Building for debugging...
+[0/9] Write swift-version--1AB21518FC5DEDBE.txt
+[2/17] Compiling FieldWeaveCore FFT.swift
+[3/18] Compiling FieldWeaveCore LoudnessReference.swift
+[4/18] Compiling FieldWeaveCore Exporter.swift
+[5/18] Compiling FieldWeaveCore Importing.swift
+[6/18] Compiling FieldWeaveCore Curves.swift
+[7/18] Compiling FieldWeaveCore Configuration.swift
+[8/18] Emitting module FieldWeaveCore
+[9/18] Compiling FieldWeaveCore Compiler.swift
+[10/18] Compiling FieldWeaveCore WAV.swift
+[11/22] Compiling FieldWeaveAudio LiveConfiguration.swift
+[12/22] Compiling FieldWeaveAudio LoudnessBalance.swift
+[13/22] Compiling FieldWeaveAudio AudioDevices.swift
+[14/22] Compiling FieldWeaveAudio CamillaSocket.swift
+[15/22] Emitting module FieldWeaveAudio
+[16/22] Compiling FieldWeaveAudio LiveAudioController.swift
+[17/21] Emitting module FieldWeaveAudioCLI
+[18/21] Compiling FieldWeaveAudioCLI CLI.swift
+[18/20] Linking fieldweave-audio
+[19/20] Applying fieldweave-audio
+Build complete! (2.76s)
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite FieldWeaveLoudnessBalanceTests started.
+◇ Suite FieldWeaveCoreTests started.
+◇ Suite FieldWeaveAudioRouteTests started.
+◇ Suite FieldWeaveImportFlowTests started.
+◇ Test testCenterAllMidEqualPowerAndSide() started.
+◇ Test feedbackConvergesWithoutChangingSongDynamicsOrStereoBalance() started.
+◇ Test testSafetyValidationTailAuditAndRateMismatch() started.
+◇ Test referenceHandlesRatesDelaysSilenceAndStereoGain() started.
+◇ Test silenceDropoutsAndCancelledContentNeverIncreaseGain() started.
+◇ Test scalarIRLevelsAndPreampHavePredictableResults() started.
+◇ Suite ImportingTests started.
+◇ Suite FieldWeaveConfigurationImportTests started.
+◇ Test testOverlapAddPreservesFullTail() started.
+◇ Test testMatrixMappingPortableExportAndTailRender() started.
+◇ Test inspectionRejectsWrongRateBeforeStagingAndCancelledDraftCannotApply() started.
+◇ Test testWAVRoundtripAndRejectNonfiniteAndTruncated() started.
+◇ Test peakMarginWinsOverRMSMatchingAndStereoIsEnergySummed() started.
+◇ Test bundledDonorCandidatesApplyWithoutInventedHeadphoneCorrection() started.
+◇ Test testWidthLinearPhaseAndMidDelayAlignment() started.
+◇ Test testFFTMatchesDirectConvolution() started.
+◇ Test testFailedExportLeavesNoPartialTarget() started.
+◇ Test testGeneratedConfigurationUsesEveryMatrixRouteAndEscapesNames() started.
+◇ Test testExactNeutralAndMonoSidePreservation() started.
+◇ Test testRouteRequiresExactPhysicalOutputAndStereoLoopback() started.
+◇ Test applyingOneSectionPreservesOtherDraftAndItsMetadata() started.
+◇ Test testCrossfeedDelayAndCommonDelay() started.
+◇ Test peqAndIRRemainDraftUntilApplyAndAssetsSurviveSourceRemoval() started.
+◇ Test testRenderRejectsClipAndSampleRateMismatch() started.
+◇ Test testPCMBitDepthsAndNonfiniteImport() started.
+◇ Test failedImportRetainsConfigurationAndRollsBackAssets() started.
+◇ Test presetsAndManualEditsShareTheLiveBalancePath() started.
+◇ Test lastImportWinsAndEditsCancelPendingReplacement() started.
+◇ Test manualDuplicateChannelsRequireExplicitConfirmation() started.
+◇ Test configurationPreviewDoesNotReplaceUntilApply() started.
+◇ Test testPCHIPAnchorsAndShape() started.
+◇ Test measurementConfirmationRevocationCancelsApply() started.
+◇ Test testDuplicateDeviceNamesAreRejected() started.
+◇ Test sourceStereoMappingPreservesMatrixDirection() started.
+◇ Test inspectionReturnsActualMetadataAndRejectsRateOrLength() started.
+◇ Test managedCopiesDeduplicateAndSurviveOriginalDeletion() started.
+◇ Test managedAssetSymlinkCannotPretendExternalAssetIsManaged() started.
+◇ Test matrixRoutingUsesSourceThenEarAndNeverSubstringGuesses() started.
+◇ Test folderSelectionIsBoundedNonrecursiveAndDeduplicated() started.
+◇ Test unknownAndInactiveConfigurationCannotSilentlyDisappear() started.
+◇ Test explicitSourceEarAliasesMapMonoWithoutGuessingConflicts() started.
+◇ Test singleStereoHeadphoneUsesDifferentEarChannels() started.
+◇ Test headphoneRoutingRequiresUnambiguousFilenameTokens() started.
+◇ Test strictPEQRejectsUnsupportedMissingNullAndInvalidValues() started.
+◇ Test managedAssetFailureRollsBackOnlyItsOwnTransaction() started.
+✔ Test testSafetyValidationTailAuditAndRateMismatch() passed after 0.648 seconds.
+✔ Test testWAVRoundtripAndRejectNonfiniteAndTruncated() passed after 0.648 seconds.
+✔ Test testCenterAllMidEqualPowerAndSide() passed after 0.648 seconds.
+✔ Test testWidthLinearPhaseAndMidDelayAlignment() passed after 0.649 seconds.
+✔ Test testFFTMatchesDirectConvolution() passed after 0.649 seconds.
+✔ Test testFailedExportLeavesNoPartialTarget() passed after 0.649 seconds.
+✔ Test silenceDropoutsAndCancelledContentNeverIncreaseGain() passed after 0.649 seconds.
+✔ Test testRouteRequiresExactPhysicalOutputAndStereoLoopback() passed after 0.649 seconds.
+✔ Test peakMarginWinsOverRMSMatchingAndStereoIsEnergySummed() passed after 0.649 seconds.
+✔ Test testMatrixMappingPortableExportAndTailRender() passed after 0.6warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+49 seconds.
+✔ Test testCrossfeedDelayAndCommonDelay() passed after 0.649 seconds.
+✔ Test testPCMBitDepthsAndNonfiniteImport() passed after 0.649 seconds.
+✔ Test testPCHIPAnchorsAndShape() passed after 0.649 seconds.
+✔ Test testDuplicateDeviceNamesAreRejected() passed after 0.670 seconds.
+✔ Test sourceStereoMappingPreservesMatrixDirection() passed after 0.046 seconds.
+✔ Test testExactNeutralAndMonoSidePreservation() passed after 0.693 seconds.
+✔ Test managedCopiesDeduplicateAndSurviveOriginalDeletion() passed after 0.046 seconds.
+✔ Test managedAssetSymlinkCannotPretendExternalAssetIsManaged() passed after 0.045 seconds.
+✔ Test matrixRoutingUsesSourceThenEarAndNeverSubstringGuesses() passed after 0.045 seconds.
+✔ Test testRenderRejectsClipAndSampleRateMismatch() passed after 0.693 seconds.
+✔ Test unknownAndInactiveConfigurationCannotSilentlyDisappear() passed after 0.045 seconds.
+✔ Test explicitSourceEarAliasesMapMonoWithoutGuessingConflicts() passed after 0.045 seconds.
+✔ Test singleStereoHeadphoneUsesDifferentEarChannels() passed after 0.045 seconds.
+✔ Test headphoneRoutingRequiresUnambiguousFilenameTokens() passed after 0.045 seconds.
+✔ Test strictPEQRejectsUnsupportedMissingNullAndInvalidValues() passed after 0.045 seconds.
+✔ Test managedAssetFailureRollsBackOnlyItsOwnTransaction() passed after 0.045 seconds.
+✔ Suite FieldWeaveConfigurationImportTests passed after 0.693 seconds.
+✔ Test folderSelectionIsBoundedNonrecursiveAndDeduplicated() passed after 0.053 seconds.
+✔ Test testGeneratedConfigurationUsesEveryMatrixRouteAndEscapesNames() passed after 1.245 seconds.
+✔ Suite FieldWeaveAudioRouteTests passed after 1.245 seconds.
+✔ Test measurementConfirmationRevocationCancelsApply() passed after 1.249 seconds.
+✔ Test inspectionRejectsWrongRateBeforeStagingAndCancelledDraftCannotApply() passed after 1.261 seconds.
+✔ Test failedImportRetainsConfigurationAndRollsBackAssets() passed after 1.441 seconds.
+✔ Test feedbackConvergesWithoutChangingSongDynamicsOrStereoBalance() passed after 1.443 seconds.
+✔ Test manualDuplicateChannelsRequireExplicitConfirmation() passed after 1.570 seconds.
+✔ Test inspectionReturnsActualMetadataAndRejectsRateOrLength() passed after 0.923 seconds.
+✔ Suite ImportingTests passed after 1.571 seconds.
+✔ Test configurationPreviewDoesNotReplaceUntilApply() passed after 1.572 seconds.
+✔ Test applyingOneSectionPreservesOtherDraftAndItsMetadata() passed after 1.789 seconds.
+✔ Test testOverlapAddPreservesFullTail() passed after 1.850 seconds.
+✔ Suite FieldWeaveCoreTests passed after 1.850 seconds.
+✔ Test peqAndIRRemainDraftUntilApplyAndAssetsSurviveSourceRemoval() passed after 2.235 seconds.
+✔ Test lastImportWinsAndEditsCancelPendingReplacement() passed after 2.236 seconds.
+✔ Test referenceHandlesRatesDelaysSilenceAndStereoGain() passed after 2.714 seconds.
+✔ Test scalarIRLevelsAndPreampHavePredictableResults() passed after 3.573 seconds.
+✔ Suite FieldWeaveLoudnessBalanceTests passed after 3.573 seconds.
+✔ Test bundledDonorCandidatesApplyWithoutInventedHeadphoneCorrection() passed after 3.928 seconds.
+✔ Test presetsAndManualEditsShareTheLiveBalancePath() passed after 4.922 seconds.
+✔ Suite FieldWeaveImportFlowTests passed after 4.922 seconds.
+✔ Test run with 43 tests in 6 suites passed after 4.923 seconds.

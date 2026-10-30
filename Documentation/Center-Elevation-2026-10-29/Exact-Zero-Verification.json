@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "ui_slider_zero": 0,
+  "floating_residue_regression": 7.105427357601002e-15,
+  "final_strategy": "bypass",
+  "original_configuration": "/Users/zhuyongfei/Desktop/FieldWeave/Documentation/Center-Elevation-2026-10-29/Before-Final-UI-20261030-003817/Autosave.json",
+  "byte_identical_original_fir_wavs": {
+    "LL": true,
+    "LR": true,
+    "RL": true,
+    "RR": true
+  }
+}

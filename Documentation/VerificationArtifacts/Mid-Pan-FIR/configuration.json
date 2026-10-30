@@ -1,0 +1,55 @@
+{
+  "center_imaging" : {
+    "enabled" : true,
+    "gain_db" : -1,
+    "pan" : 0.4
+  },
+  "crossfeed" : {
+    "enabled" : false
+  },
+  "design" : {
+    "eq_taps" : 4096,
+    "max_matrix_taps" : 65536,
+    "resample_policy" : "reject",
+    "tail_energy_tolerance" : 1e-06,
+    "width_taps" : 2049
+  },
+  "externalization" : {
+    "mode" : "bypass"
+  },
+  "headphone" : {
+    "mode" : "bypass"
+  },
+  "safety" : {
+    "auto_headroom" : true,
+    "ceiling_dbfs" : -1,
+    "preamp_db" : -3
+  },
+  "sample_rate" : 48000,
+  "version" : 1,
+  "width" : {
+    "interpolation" : "pchip_log_hz",
+    "points" : [
+      [
+        20,
+        1.2
+      ],
+      [
+        250,
+        1.2
+      ],
+      [
+        1000,
+        1.1
+      ],
+      [
+        6000,
+        1.3
+      ],
+      [
+        20000,
+        1.3
+      ]
+    ]
+  }
+}

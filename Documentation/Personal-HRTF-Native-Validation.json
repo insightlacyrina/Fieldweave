@@ -1,0 +1,83 @@
+{
+  "scope": "Swift native FIR compilation of every imported measured donor candidate; not listener quality or live device evidence",
+  "source_commit": "04c6c172a4e80c795656811b0eebd493d56af3e7",
+  "reports": {
+    "c01": {
+      "auto_headroom_gain_db": -26.273353429369074,
+      "bounded_input_peak_bound": 0.8912509381337455,
+      "design_common_delay_ms": 0,
+      "matrix_taps": 418,
+      "mid_left_gain": 1,
+      "mid_right_gain": 1,
+      "sample_rate": 48000,
+      "warnings": [],
+      "width_max_magnitude_error": 0
+    },
+    "c02": {
+      "auto_headroom_gain_db": -24.39255397056142,
+      "bounded_input_peak_bound": 0.8912509381337456,
+      "design_common_delay_ms": 0,
+      "matrix_taps": 418,
+      "mid_left_gain": 1,
+      "mid_right_gain": 1,
+      "sample_rate": 48000,
+      "warnings": [],
+      "width_max_magnitude_error": 0
+    },
+    "c03": {
+      "auto_headroom_gain_db": -25.0035292219194,
+      "bounded_input_peak_bound": 0.8912509381337456,
+      "design_common_delay_ms": 0,
+      "matrix_taps": 418,
+      "mid_left_gain": 1,
+      "mid_right_gain": 1,
+      "sample_rate": 48000,
+      "warnings": [],
+      "width_max_magnitude_error": 0
+    },
+    "c04": {
+      "auto_headroom_gain_db": -24.15962385505509,
+      "bounded_input_peak_bound": 0.8912509381337456,
+      "design_common_delay_ms": 0,
+      "matrix_taps": 418,
+      "mid_left_gain": 1,
+      "mid_right_gain": 1,
+      "sample_rate": 48000,
+      "warnings": [],
+      "width_max_magnitude_error": 0
+    },
+    "c05": {
+      "auto_headroom_gain_db": -23.593315877882027,
+      "bounded_input_peak_bound": 0.8912509381337456,
+      "design_common_delay_ms": 0,
+      "matrix_taps": 418,
+      "mid_left_gain": 1,
+      "mid_right_gain": 1,
+      "sample_rate": 48000,
+      "warnings": [],
+      "width_max_magnitude_error": 0
+    },
+    "c06": {
+      "auto_headroom_gain_db": -24.220267965648986,
+      "bounded_input_peak_bound": 0.8912509381337456,
+      "design_common_delay_ms": 0,
+      "matrix_taps": 418,
+      "mid_left_gain": 1,
+      "mid_right_gain": 1,
+      "sample_rate": 48000,
+      "warnings": [],
+      "width_max_magnitude_error": 0
+    },
+    "c07": {
+      "auto_headroom_gain_db": -24.435780506748806,
+      "bounded_input_peak_bound": 0.8912509381337456,
+      "design_common_delay_ms": 0,
+      "matrix_taps": 418,
+      "mid_left_gain": 1,
+      "mid_right_gain": 1,
+      "sample_rate": 48000,
+      "warnings": [],
+      "width_max_magnitude_error": 0
+    }
+  }
+}

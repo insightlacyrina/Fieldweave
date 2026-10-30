@@ -1,0 +1,20 @@
+Immersive-down30: error +0.000 dB; stress peak -1.00 dBFS
+Immersive-up30: error +0.001 dB; stress peak -1.00 dBFS
+Neutral-down30: error +0.000 dB; stress peak -1.00 dBFS
+Neutral-up30: error +0.001 dB; stress peak -1.00 dBFS
+Studio-down30: error +0.000 dB; stress peak -1.00 dBFS
+Studio-up30: error +0.001 dB; stress peak -1.00 dBFS
+Vintage Stereo-down30: error -0.000 dB; stress peak -1.00 dBFS
+Vintage Stereo-up30: error -0.000 dB; stress peak -1.00 dBFS
+c01-down20: error +0.000 dB; stress peak -1.00 dBFS
+c01-down45: error +0.000 dB; stress peak -1.00 dBFS
+c01-up20: error +0.000 dB; stress peak -1.00 dBFS
+c01-up45: error +0.000 dB; stress peak -1.00 dBFS
+c04-down20: error +0.000 dB; stress peak -1.00 dBFS
+c04-down45: error +0.000 dB; stress peak -1.00 dBFS
+c04-up20: error +0.000 dB; stress peak -1.00 dBFS
+c04-up45: error +0.000 dB; stress peak -1.00 dBFS
+c07-down20: error +0.000 dB; stress peak -1.00 dBFS
+c07-down45: error +0.000 dB; stress peak -1.00 dBFS
+c07-up20: error +0.000 dB; stress peak -1.00 dBFS
+c07-up45: error +0.000 dB; stress peak -1.00 dBFS

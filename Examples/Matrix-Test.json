@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "sample_rate": 48000,
+  "design": {
+    "width_taps": 2049,
+    "eq_taps": 4096,
+    "max_matrix_taps": 65536,
+    "resample_policy": "reject",
+    "tail_energy_tolerance": 1e-06
+  },
+  "headphone": {
+    "mode": "bypass"
+  },
+  "width": {
+    "interpolation": "pchip_log_hz",
+    "points": [
+      [
+        20,
+        1.2
+      ],
+      [
+        250,
+        1.2
+      ],
+      [
+        1000,
+        1.1
+      ],
+      [
+        6000,
+        1.3
+      ],
+      [
+        20000,
+        1.3
+      ]
+    ]
+  },
+  "center_imaging": {
+    "enabled": true,
+    "pan": -0.25,
+    "gain_db": -2
+  },
+  "externalization": {
+    "mode": "matrix_ir",
+    "paths": {
+      "LL": {
+        "path": "Inputs/LL-test.wav",
+        "channel": 0
+      },
+      "LR": {
+        "path": "Inputs/LR-test.wav",
+        "channel": 0
+      },
+      "RL": {
+        "path": "Inputs/RL-test.wav",
+        "channel": 0
+      },
+      "RR": {
+        "path": "Inputs/RR-test.wav",
+        "channel": 0
+      }
+    },
+    "kind": "test_only",
+    "normalization": "none",
+    "coordinates": {
+      "convention": "SOFA spherical: azimuth positive left, elevation positive up, distance metres",
+      "left_source": [
+        30,
+        0,
+        1
+      ],
+      "right_source": [
+        -30,
+        0,
+        1
+      ]
+    },
+    "provenance": "Synthetic asymmetric delayed impulses. TEST ONLY, not measured HRTF."
+  },
+  "crossfeed": {
+    "enabled": false
+  },
+  "safety": {
+    "preamp_db": -3,
+    "auto_headroom": true,
+    "ceiling_dbfs": -1
+  }
+}

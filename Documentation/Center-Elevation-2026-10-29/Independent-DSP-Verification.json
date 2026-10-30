@@ -1,0 +1,223 @@
+{
+  "verified": true,
+  "scope": "Independent static audit and NumPy mathematical reference calculations. No Swift DSP invocation or audio playback. Bounded target-vs-realized FIR and non-UI 8 kHz rate caveats are recorded explicitly.",
+  "audio_device_opened": false,
+  "implementation_under_test_executed": false,
+  "source_sha256": {
+    "CenterElevation.swift": "4d34ac05dcbeca4cfbd7fe092a3f63013bab3f7d227f81daf75bee5e8ec05566",
+    "Compiler.swift": "da5180a2df541fd5aa2096b2c8d0d3ef0834ee1971439820e55a2451986f5ff3"
+  },
+  "routing": {
+    "matched_donor_expression": "(E_height * Mid(left,right) + E_zero * Side) * original_Q_Width_base",
+    "unknown_or_bypass_expression": "(diag(F_relative_left,F_relative_right) * E_custom * Mid(left,right) + E_custom * Side) * original_Q_Width_base",
+    "side_preserved_before_common_safety_and_loudness_gain": true,
+    "matched_donor_not_convolved_with_horizontal_hrtf_again": true,
+    "zero_degrees_uses_original_compiler_branch": true,
+    "known_bank_algebra_case_count": 630,
+    "max_side_roundoff_error": 2.220446049250313e-16,
+    "max_mid_roundoff_error": 4.440892098500626e-16
+  },
+  "minimum_phase": {
+    "reference_case_count": 1260,
+    "tail_fraction_limit": 0.001,
+    "failed_tail_or_nonfinite_cases": [],
+    "worst_tail": {
+      "profile": "c02",
+      "pan": 1,
+      "degrees": 25.0,
+      "ear": 0,
+      "tail_fraction": 1.952236319147707e-05,
+      "dc_correction": 0.9999707544556328,
+      "max_response_error_db": 0.3505272064485834,
+      "min_actual_ratio": 0.17671432263177939,
+      "max_actual_ratio": 4.041660067054632
+    },
+    "near_zero_max_l1_error_at_abs_0_0001_degrees": {
+      "profile": "c02",
+      "pan": 1,
+      "degrees": 0.0001,
+      "ear": 1,
+      "tap_l1_difference_from_identity": 0.00034454297307752745,
+      "max_response_error_db": 2.4102010969204947e-07
+    },
+    "cepstrum_positive_quefrencies_doubled_negative_zeroed_nyquist_retained": true,
+    "causal_minimum_phase_reconstruction_consistent": true,
+    "design_target_gain_db": [
+      -18,
+      12
+    ],
+    "actual_final_fir_target_bounds_are_not_strict": true,
+    "largest_observed_actual_gain_db": 12.219357558048403,
+    "smallest_observed_actual_gain_db": -18.384615764598156,
+    "max_amplitude_case": {
+      "profile": "c01",
+      "pan": 0.5,
+      "degrees": 40.0,
+      "ear": 1,
+      "tail_fraction": 1.9425084786286946e-06,
+      "dc_correction": 0.999993886305845,
+      "max_response_error_db": 0.21935755804840248,
+      "min_actual_ratio": 0.1537526302941922,
+      "max_actual_ratio": 4.082891865703829
+    },
+    "min_amplitude_case": {
+      "profile": "c07",
+      "pan": -1,
+      "degrees": 5.0,
+      "ear": 1,
+      "tail_fraction": 2.07545233691592e-06,
+      "dc_correction": 1.0000436187247586,
+      "max_response_error_db": 0.38461576459815544,
+      "min_actual_ratio": 0.12043957428982506,
+      "max_actual_ratio": 4.01386488456606
+    },
+    "worst_rectangular_truncation_frequency_error_db": {
+      "profile": "c05",
+      "pan": -1,
+      "degrees": -20.0,
+      "ear": 1,
+      "tail_fraction": 2.8340983554701047e-06,
+      "dc_correction": 1.0000483361938586,
+      "max_response_error_db": 0.40204435279272027,
+      "min_actual_ratio": 0.1631476274133388,
+      "max_actual_ratio": 4.025596763910966
+    },
+    "caveat": "Clamping the desired magnitude before cepstral reconstruction does not guarantee that the final 4096-tap rectangularly truncated and DC-corrected FIR stays inside those limits. Final system peak safety is provided separately by whole-matrix headroom and live output limiter."
+  },
+  "resampling": {
+    "algorithm_gain_factor_1_over_rate_ratio_consistent_with_IR_transfer_gain": true,
+    "selected_scan_case_count": 1260,
+    "tail_rejections": [],
+    "per_rate_summary": [
+      {
+        "rate": 8000,
+        "case_count": 252,
+        "worst_tail": {
+          "rate": 8000,
+          "profile": "c07",
+          "pan": 0,
+          "degrees": 45,
+          "ear": 0,
+          "tail_fraction": 7.243474447518485e-09
+        },
+        "max_dc_sum_error": {
+          "rate": 8000,
+          "profile": "c01",
+          "max_dc_sum_difference": 0.02974180848988417
+        }
+      },
+      {
+        "rate": 16000,
+        "case_count": 252,
+        "worst_tail": {
+          "rate": 16000,
+          "profile": "c01",
+          "pan": -1,
+          "degrees": -30,
+          "ear": 1,
+          "tail_fraction": 1.7314677440826984e-07
+        },
+        "max_dc_sum_error": {
+          "rate": 16000,
+          "profile": "c07",
+          "max_dc_sum_difference": 7.297655493543331e-05
+        }
+      },
+      {
+        "rate": 44100,
+        "case_count": 252,
+        "worst_tail": {
+          "rate": 44100,
+          "profile": "c02",
+          "pan": 1,
+          "degrees": 45,
+          "ear": 0,
+          "tail_fraction": 6.926869283665919e-06
+        },
+        "max_dc_sum_error": {
+          "rate": 44100,
+          "profile": "c07",
+          "max_dc_sum_difference": 1.4765485305989756e-05
+        }
+      },
+      {
+        "rate": 96000,
+        "case_count": 252,
+        "worst_tail": {
+          "rate": 96000,
+          "profile": "c02",
+          "pan": 1,
+          "degrees": 45,
+          "ear": 0,
+          "tail_fraction": 0.0001176636201490235
+        },
+        "max_dc_sum_error": {
+          "rate": 96000,
+          "profile": "c02",
+          "max_dc_sum_difference": 3.2088947756747643e-06
+        }
+      },
+      {
+        "rate": 192000,
+        "case_count": 252,
+        "worst_tail": {
+          "rate": 192000,
+          "profile": "c02",
+          "pan": 1,
+          "degrees": 45,
+          "ear": 0,
+          "tail_fraction": 0.0005438771361384996
+        },
+        "max_dc_sum_error": {
+          "rate": 192000,
+          "profile": "c02",
+          "max_dc_sum_difference": 3.272184256886135e-06
+        }
+      }
+    ],
+    "non_UI_8kHz_endpoint_caveat": {
+      "rate": 8000,
+      "profile": "c01",
+      "native_dc_sums": [
+        [
+          1.0428329689712295,
+          0.9843371736592642
+        ],
+        [
+          0.9991232245129812,
+          1.022924568409119
+        ]
+      ],
+      "converted_dc_sums": [
+        [
+          1.0725747774611136,
+          0.9875697604071674
+        ],
+        [
+          1.0055548001303987,
+          1.0136295669465272
+        ]
+      ],
+      "difference": [
+        [
+          0.02974180848988417,
+          0.0032325867479031656
+        ],
+        [
+          0.006431575617417473,
+          -0.009295001462591879
+        ]
+      ],
+      "not_in_current_UI_sample_rate_choices": true,
+      "cause": "The windowed-sinc support radius grows to about 204 source samples at 8 kHz, beyond the existing 64-sample source padding. Output is cropped to the original duration, discarding low-pass pre/post ringing. Current UI choices 44.1/48/96 kHz are unaffected by this sizable endpoint loss."
+    }
+  },
+  "export_and_live_compatibility": {
+    "height_is_compiled_into_final_four_path_matrix": true,
+    "portable_configuration_retains_profile_and_elevation": true,
+    "rebuild_requires_same_app_builtin_bank_version": true,
+    "live_calibration_reads_final_compiled_matrix": true,
+    "normalization_and_safety_gains_are_common_to_mid_and_side": true
+  },
+  "failures_in_requested_UI_sample_rates": []
+}

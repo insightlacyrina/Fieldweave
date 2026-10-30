@@ -1,0 +1,32 @@
+# Run CamillaDSP from this package directory. Supply stereo interleaved F64_LE input.f64.
+description: 'FieldWeave offline raw-file convolution'
+devices:
+  samplerate: 48000
+  chunksize: 256
+  capture: {type: RawFile, channels: 2, filename: 'input.f64', format: F64_LE, extra_samples: 2048}
+  playback: {type: File, channels: 2, filename: 'camilla-output.f64', format: F64_LE}
+filters:
+  LL: {type: Conv, parameters: {type: Wav, filename: 'LL.wav', channel: 0}}
+  LR: {type: Conv, parameters: {type: Wav, filename: 'LR.wav', channel: 0}}
+  RL: {type: Conv, parameters: {type: Wav, filename: 'RL.wav', channel: 0}}
+  RR: {type: Conv, parameters: {type: Wav, filename: 'RR.wav', channel: 0}}
+mixers:
+  split:
+    channels: {in: 2, out: 4}
+    mapping:
+      - {dest: 0, sources: [{channel: 0, gain: 1.0, scale: linear}]}
+      - {dest: 1, sources: [{channel: 0, gain: 1.0, scale: linear}]}
+      - {dest: 2, sources: [{channel: 1, gain: 1.0, scale: linear}]}
+      - {dest: 3, sources: [{channel: 1, gain: 1.0, scale: linear}]}
+  sum:
+    channels: {in: 4, out: 2}
+    mapping:
+      - {dest: 0, sources: [{channel: 0, gain: 1.0, scale: linear}, {channel: 2, gain: 1.0, scale: linear}]}
+      - {dest: 1, sources: [{channel: 1, gain: 1.0, scale: linear}, {channel: 3, gain: 1.0, scale: linear}]}
+pipeline:
+  - {type: Mixer, name: split}
+  - {type: Filter, channels: [0], names: [LL]}
+  - {type: Filter, channels: [1], names: [LR]}
+  - {type: Filter, channels: [2], names: [RL]}
+  - {type: Filter, channels: [3], names: [RR]}
+  - {type: Mixer, name: sum}

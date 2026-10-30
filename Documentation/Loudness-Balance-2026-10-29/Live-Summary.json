@@ -1,0 +1,78 @@
+{
+  "verified": true,
+  "clipped_samples": 0,
+  "route_restored": true,
+  "max_mean_error_db": 0.19785703702472013,
+  "configurations": [
+    {
+      "configuration": "Immersive",
+      "mean_error_db": -0.13069361506159183,
+      "last_trim_db": 0.11581597165194484
+    },
+    {
+      "configuration": "Manual-EQ",
+      "mean_error_db": -0.12623970798768802,
+      "last_trim_db": -0.6511172384392077
+    },
+    {
+      "configuration": "Manual-combined",
+      "mean_error_db": 0.013555635947263056,
+      "last_trim_db": -0.3614612313446225
+    },
+    {
+      "configuration": "Manual-pan-width",
+      "mean_error_db": 0.015396164567485826,
+      "last_trim_db": 0.12795477271954658
+    },
+    {
+      "configuration": "Neutral",
+      "mean_error_db": -0.0003895659756487646,
+      "last_trim_db": 0
+    },
+    {
+      "configuration": "Studio",
+      "mean_error_db": -0.05940865437828613,
+      "last_trim_db": 0
+    },
+    {
+      "configuration": "Vintage Stereo",
+      "mean_error_db": 0.11034378348851348,
+      "last_trim_db": 0
+    },
+    {
+      "configuration": "c01",
+      "mean_error_db": 0.16431443935393553,
+      "last_trim_db": 2
+    },
+    {
+      "configuration": "c02",
+      "mean_error_db": -0.19785703702472013,
+      "last_trim_db": 1.7695836036660675
+    },
+    {
+      "configuration": "c03",
+      "mean_error_db": 0.17104929507570077,
+      "last_trim_db": 1.7552155726910459
+    },
+    {
+      "configuration": "c04",
+      "mean_error_db": 0.14645487368291654,
+      "last_trim_db": 2
+    },
+    {
+      "configuration": "c05",
+      "mean_error_db": -0.05782926251901799,
+      "last_trim_db": 1.5988838136525558
+    },
+    {
+      "configuration": "c06",
+      "mean_error_db": -0.13260098342797377,
+      "last_trim_db": 1.7668697255580519
+    },
+    {
+      "configuration": "c07",
+      "mean_error_db": 0.09824021799437155,
+      "last_trim_db": 1.851789523411341
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+Another instance of SwiftPM (PID: 48069) is already running using '/Users/zhuyongfei/Desktop/FieldWeave/.build', waiting until that process has finished execution...warning: /Users/zhuyongfei/Library/org.swift.swiftpm/configuration is not accessible or not writable, disabling user-level cache features.
+warning: /Users/zhuyongfei/Library/org.swift.swiftpm/security is not accessible or not writable, disabling user-level cache features.
+warning: /Users/zhuyongfei/Library/Caches/org.swift.swiftpm is not accessible or not writable, disabling user-level cache features.
+warning: 'fieldweave': failed storing manifest for 'fieldweave' in cache: attempt to write a readonly database
+[0/1] Planning build
+Building for debugging...
+[0/11] Write fieldweave-cli-entitlement.plist
+[1/11] Write sources
+[3/11] Write swift-version--1AB21518FC5DEDBE.txt
+[5/15] Compiling FieldWeaveCLI main.swift
+[6/15] Emitting module FieldWeaveCLI
+[6/15] Write Objects.LinkFileList
+[7/15] Linking fieldweave-cli
+[9/15] Compiling FieldWeave FieldStore.swift
+[9/16] Applying fieldweave-cli
+[11/16] Compiling FieldWeave FieldWeaveApp.swift
+[12/16] Emitting module FieldWeave
+[13/16] Compiling FieldWeave ContentView.swift
+[13/16] Write Objects.LinkFileList
+[14/16] Linking FieldWeave
+[15/16] Applying FieldWeave
+Build complete! (4.19s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite FieldWeaveCoreTests started.
+◇ Suite FieldWeaveConfigurationImportTests started.
+◇ Test testSafetyValidationTailAuditAndRateMismatch() started.
+◇ Test testRenderRejectsClipAndSampleRateMismatch() started.
+◇ Test unknownAndInactiveConfigurationCannotSilentlyDisappear() started.
+◇ Test testWAVRoundtripAndRejectNonfiniteAndTruncated() started.
+◇ Test testPCMBitDepthsAndNonfiniteImport() started.
+◇ Test testFailedExportLeavesNoPartialTarget() started.
+◇ Test testCenterAllMidEqualPowerAndSide() started.
+◇ Test testExactNeutralAndMonoSidePreservation() started.
+◇ Test testPCHIPAnchorsAndShape() started.
+◇ Test testMatrixMappingPortableExportAndTailRender() started.
+◇ Test testWidthLinearPhaseAndMidDelayAlignment() started.
+◇ Test testFFTMatchesDirectConvolution() started.
+◇ Test testOverlapAddPreservesFullTail() started.
+◇ Test testCrossfeedDelayAndCommonDelay() started.
+✔ Test unknownAndInactiveConfigurationCannotSilentlyDisappear() passed after 0.104 seconds.
+✔ Test testPCHIPAnchorsAndShape() passed after 0.104 seconds.
+✔ Test testWAVRoundtripAndRejectNonfiniteAndTruncated() passed after 0.104 seconds.
+✔ Test testPCMBitDepthsAndNonfiniteImport() passed after 0.104 seconds.
+✔ Test testRenderRejectsClipAndSampleRateMismatch() passed after 0.104 seconds.
+✔ Test testFailedExportLeavesNoPartialTarget() passed after 0.104 seconds.
+✔ Test testFFTMatchesDirectConvolution() passed after 0.104 seconds.
+✔ Suite FieldWeaveConfigurationImportTests passed after 0.104 seconds.
+✔ Test testSafetyValidationTailAuditAndRateMismatch() passed after 0.115 seconds.
+✔ Test testWidthLinearPhaseAndMidDelayAlignment() passed after 0.116 seconds.
+✔ Test testCenterAllMidEqualPowerAndSide() passed after 0.143 seconds.
+✔ Test testExactNeutralAndMonoSidePreservation() passed after 0.183 seconds.
+✔ Test testCrossfeedDelayAndCommonDelay() passed after 0.196 seconds.
+✔ Test testMatrixMappingPortableExportAndTailRender() passed after 0.324 seconds.
+✔ Test testOverlapAddPreservesFullTail() passed after 0.834 seconds.
+✔ Suite FieldWeaveCoreTests passed after 0.834 seconds.
+✔ Test run with 14 tests in 2 suites passed after 0.834 seconds.

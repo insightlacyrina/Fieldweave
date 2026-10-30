@@ -1,0 +1,26 @@
+Another instance of SwiftPM (PID: 59258) is already running using '/Users/zhuyongfei/Desktop/FieldWeave/.build', waiting until that process has finished execution...[0/1] Planning build
+Building for debugging...
+[0/5] Write sources
+[1/5] Write swift-version--1AB21518FC5DEDBE.txt
+[3/13] Compiling FieldWeaveCore Exporter.swift
+[4/13] Compiling FieldWeaveCore FFT.swift
+[5/13] Compiling FieldWeaveCore LoudnessReference.swift
+[6/13] Compiling FieldWeaveCore Importing.swift
+[7/13] Compiling FieldWeaveCore Curves.swift
+[8/14] Emitting module FieldWeaveCore
+[9/14] Compiling FieldWeaveCore Configuration.swift
+[10/14] Compiling FieldWeaveCore Compiler.swift
+[11/14] Compiling FieldWeaveCore WAV.swift
+[12/20] Compiling FieldWeaveAudio LiveConfiguration.swift
+[13/20] Compiling FieldWeaveAudio LoudnessBalance.swift
+[14/20] Emitting module FieldWeaveAudio
+[15/20] Compiling FieldWeaveAudio AudioDevices.swift
+[16/20] Compiling FieldWeaveAudio CamillaSocket.swift
+[17/20] Compiling FieldWeaveAudio LiveAudioController.swift
+[18/22] Compiling FieldWeaveAudioCLI CLI.swift
+[19/22] Emitting module FieldWeaveAudioCLI
+[19/22] Write Objects.LinkFileList
+[20/22] Linking fieldweave-audio
+[21/22] Applying fieldweave-audio
+Build of product 'fieldweave-audio' complete! (3.11s)
+warning: '--build-system native' has been deprecated and will be removed in a future release; please report an issue at https://github.com/swiftlang/swift-package-manager/issues if you are unable to adopt the default build system.

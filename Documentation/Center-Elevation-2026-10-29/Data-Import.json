@@ -1,0 +1,51 @@
+{
+  "profiles": 7,
+  "wavs": 308,
+  "sample_rate": 48000,
+  "frames_per_wav": 418,
+  "zero_degree_coefficients_exact": true,
+  "sources": [
+    {
+      "id": "c01",
+      "path": "artifacts/iteration05/candidate-bank/c01/Calibration_Candidate_HRIR.sofa",
+      "sha256": "398863b6d5a9ed50c6394d1b3005abb5c547757506ac7e48041b2b0ec5cbe3af",
+      "bytes": 2688417
+    },
+    {
+      "id": "c02",
+      "path": "artifacts/iteration05/candidate-bank/c02/Calibration_Candidate_HRIR.sofa",
+      "sha256": "d99e2aa802a40f860093403c2f4c94e720081d62e6123524944a8a2c9887f774",
+      "bytes": 2688537
+    },
+    {
+      "id": "c03",
+      "path": "artifacts/iteration05/candidate-bank/c03/Calibration_Candidate_HRIR.sofa",
+      "sha256": "e5d609920388c9705f2db583057c6c974b83148f5e621b5665300394d3404d19",
+      "bytes": 2689300
+    },
+    {
+      "id": "c04",
+      "path": "artifacts/iteration05/candidate-bank/c04/Calibration_Candidate_HRIR.sofa",
+      "sha256": "2e8e7f4ec28f6b758f37791eec1d6cedf597d4feb3d79180bfad23218feb9bc2",
+      "bytes": 2688777
+    },
+    {
+      "id": "c05",
+      "path": "artifacts/iteration05/candidate-bank/c05/Calibration_Candidate_HRIR.sofa",
+      "sha256": "1648994cb37c707d2391eb5dc8c6ef4b52add474134d70b94c809907ec5ae04b",
+      "bytes": 2689377
+    },
+    {
+      "id": "c06",
+      "path": "artifacts/iteration05/candidate-bank/c06/Calibration_Candidate_HRIR.sofa",
+      "sha256": "34f448aaad282b5929538ee6649f1b5bdc643a1dfc88ff1457a441f20da0a82e",
+      "bytes": 2688813
+    },
+    {
+      "id": "c07",
+      "path": "artifacts/iteration05/candidate-bank/c07/Calibration_Candidate_HRIR.sofa",
+      "sha256": "f02dd8cfc93a1d548fe6be24912ef8738be1d4f2f8bc7c423c8a7fc30ee2f04c",
+      "bytes": 2686685
+    }
+  ]
+}

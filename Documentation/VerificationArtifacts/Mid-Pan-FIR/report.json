@@ -1,0 +1,13 @@
+{
+  "auto_headroom_gain_db" : -1.7027001110183408,
+  "bounded_input_peak_bound" : 0.8912509381337456,
+  "design_common_delay_ms" : 21.333333333333332,
+  "matrix_taps" : 2049,
+  "mid_left_gain" : 0.5722183262303253,
+  "mid_right_gain" : 1.1230416985022098,
+  "sample_rate" : 48000,
+  "warnings" : [
+    "No measured HRTF/BRIR supplied; no claim of real externalization."
+  ],
+  "width_max_magnitude_error" : 0.0004810596507991427
+}

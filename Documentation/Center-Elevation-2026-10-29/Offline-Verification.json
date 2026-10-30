@@ -1,0 +1,209 @@
+{
+  "verified": true,
+  "audio_device_opened": false,
+  "engine": "CamillaDSP 4.1.3",
+  "fixture": "deterministic correlated pink stereo, full-scale transients and exact silence",
+  "max_weighted_error_db": 0.0005670798133152744,
+  "configurations": [
+    {
+      "configuration": "Immersive-down30",
+      "weighted_gain_db": -8.999532743875644,
+      "target_gain_db": -9,
+      "error_db": 0.00046725612435594144,
+      "calibration_db": 11.783531408527715,
+      "quiet_peak": 0.0030749922808694843,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "Immersive-up30",
+      "weighted_gain_db": -8.999432920186685,
+      "target_gain_db": -9,
+      "error_db": 0.0005670798133152744,
+      "calibration_db": 11.081352176003534,
+      "quiet_peak": 0.0028043573818120173,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "Neutral-down30",
+      "weighted_gain_db": -8.999606943480003,
+      "target_gain_db": -9,
+      "error_db": 0.00039305651999654856,
+      "calibration_db": 11.985247806800249,
+      "quiet_peak": 0.0031945841335462304,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "Neutral-up30",
+      "weighted_gain_db": -8.999477199797859,
+      "target_gain_db": -9,
+      "error_db": 0.0005228002021411271,
+      "calibration_db": 11.420718291908095,
+      "quiet_peak": 0.002837023387540181,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "Studio-down30",
+      "weighted_gain_db": -8.999590642955052,
+      "target_gain_db": -9,
+      "error_db": 0.0004093570449477113,
+      "calibration_db": 11.94772156798653,
+      "quiet_peak": 0.003175215185543915,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "Studio-up30",
+      "weighted_gain_db": -8.999467800242583,
+      "target_gain_db": -9,
+      "error_db": 0.000532199757417473,
+      "calibration_db": 11.325356356674465,
+      "quiet_peak": 0.0028247552416472087,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "Vintage Stereo-down30",
+      "weighted_gain_db": -9.000051428887508,
+      "target_gain_db": -9,
+      "error_db": -5.1428887507753984e-05,
+      "calibration_db": 11.92272295048933,
+      "quiet_peak": 0.0033095016168803977,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "Vintage Stereo-up30",
+      "weighted_gain_db": -9.000010262229859,
+      "target_gain_db": -9,
+      "error_db": -1.026222985878178e-05,
+      "calibration_db": 11.364893965788053,
+      "quiet_peak": 0.0028276316470362594,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c01-down20",
+      "weighted_gain_db": -8.999817511287318,
+      "target_gain_db": -9,
+      "error_db": 0.00018248871268156108,
+      "calibration_db": 10.147760572866467,
+      "quiet_peak": 0.0031556350946182234,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c01-down45",
+      "weighted_gain_db": -8.999993988036191,
+      "target_gain_db": -9,
+      "error_db": 6.0119638085609495e-06,
+      "calibration_db": 11.198830020237498,
+      "quiet_peak": 0.0029909799369681185,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c01-up20",
+      "weighted_gain_db": -8.99979371397374,
+      "target_gain_db": -9,
+      "error_db": 0.00020628602626082682,
+      "calibration_db": 9.053642105968546,
+      "quiet_peak": 0.0031241803263120727,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c01-up45",
+      "weighted_gain_db": -8.999731356833035,
+      "target_gain_db": -9,
+      "error_db": 0.00026864316696517676,
+      "calibration_db": 9.90899168341312,
+      "quiet_peak": 0.002961272540446736,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c04-down20",
+      "weighted_gain_db": -8.999754547013804,
+      "target_gain_db": -9,
+      "error_db": 0.00024545298619571554,
+      "calibration_db": 8.498038749914016,
+      "quiet_peak": 0.003008767566817876,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c04-down45",
+      "weighted_gain_db": -8.999939396686889,
+      "target_gain_db": -9,
+      "error_db": 6.0603313110974e-05,
+      "calibration_db": 9.563865888809435,
+      "quiet_peak": 0.002884930208716336,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c04-up20",
+      "weighted_gain_db": -8.99974187609067,
+      "target_gain_db": -9,
+      "error_db": 0.0002581239093295551,
+      "calibration_db": 7.65566558830491,
+      "quiet_peak": 0.002765906692005018,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c04-up45",
+      "weighted_gain_db": -8.999752146770051,
+      "target_gain_db": -9,
+      "error_db": 0.0002478532299488023,
+      "calibration_db": 8.833495561341469,
+      "quiet_peak": 0.0026810590787480753,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c07-down20",
+      "weighted_gain_db": -8.999720121607165,
+      "target_gain_db": -9,
+      "error_db": 0.0002798783928348314,
+      "calibration_db": 9.394922342597482,
+      "quiet_peak": 0.0030651423059753183,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c07-down45",
+      "weighted_gain_db": -8.999917058353994,
+      "target_gain_db": -9,
+      "error_db": 8.294164600641807e-05,
+      "calibration_db": 10.213913960203083,
+      "quiet_peak": 0.003058930477994017,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c07-up20",
+      "weighted_gain_db": -8.999728155046997,
+      "target_gain_db": -9,
+      "error_db": 0.00027184495300325295,
+      "calibration_db": 8.436515927210571,
+      "quiet_peak": 0.003182093953475361,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    },
+    {
+      "configuration": "c07-up45",
+      "weighted_gain_db": -8.99973637618266,
+      "target_gain_db": -9,
+      "error_db": 0.0002636238173394645,
+      "calibration_db": 9.45829069916481,
+      "quiet_peak": 0.002855758558224308,
+      "full_scale_stress_peak": 0.8912509381337456,
+      "ceiling_dbfs": -1
+    }
+  ]
+}

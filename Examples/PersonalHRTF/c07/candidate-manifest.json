@@ -1,0 +1,357 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-18T18:34:52.019687+00:00",
+  "status": "calibration_candidate_render_verified",
+  "code": "c07",
+  "donor_subject_id": 13,
+  "source_original": {
+    "path": "artifacts/iteration04/measured/source/pp13_HRIRs_measured.sofa",
+    "sha256": "fe691aa122d4c7ab23801f1857048d807264e89c2958a39aa7b3e720ccfaa408",
+    "bytes": 1656806
+  },
+  "data_status": "calibration_candidate",
+  "role": "nonpersonalized_joint_reference_amendment",
+  "listener_match_validated": false,
+  "individual_localization_performance_validated": false,
+  "whole_measured_binaural_pair": true,
+  "transform": {
+    "data_status": "calibration_candidate",
+    "role": "nonpersonalized_joint_reference_amendment",
+    "donor_subject_id": 13,
+    "source_original": {
+      "path": "artifacts/iteration04/measured/source/pp13_HRIRs_measured.sofa",
+      "sha256": "fe691aa122d4c7ab23801f1857048d807264e89c2958a39aa7b3e720ccfaa408",
+      "bytes": 1656806
+    },
+    "source_sample_rate_hz": 44100,
+    "output_sample_rate_hz": 48000,
+    "transform": "Identical original resample_donor; 64-source-sample common zero padding, polyphase160/147, FIR147/160 amplitude factor; no individual time or spectral fitting",
+    "whole_measured_binaural_pair": true,
+    "listener_match_validated": false,
+    "geometry_simulation": false,
+    "ear_mixing": false,
+    "source_of_choice": "Nested acoustic modeling collapsed to a nonpersonalized joint spectral/ITD medoid; this additional condition is not a photograph-matched personal estimate",
+    "producer": {
+      "path": "scripts/amend_calibration_bank_v5.py",
+      "sha256": "e4d04785007f13b187066d3b88cf20146dabb238bf272c673a70aab05fb9f5f9",
+      "bytes": 14396
+    },
+    "sofa_writer": {
+      "path": "scripts/export_candidate_v5.py",
+      "sha256": "994e96226381e16233bdcfc8d4e5bd989d2946ce7cf077ee7b3ed7e2914ea5a9",
+      "bytes": 10635
+    },
+    "resampling_implementation": {
+      "path": "scripts/personalize_measured_v4.py",
+      "sha256": "4de717dbc6098189dee213fccca91505d7e20e2f52cb62fac5939a2d076e5692",
+      "bytes": 27463
+    },
+    "license": "CC BY 4.0",
+    "attribution": "Brinkmann et al. (2019), A Cross-Evaluated Database of Measured and Simulated HRTFs Including 3D Head Meshes, Anthropometric Features, and Headphone Impulse Responses. JAES, doi:10.17743/jaes.2019.0024; HUTUBS data doi:10.14279/depositonce-8487"
+  },
+  "resampling_validation": {
+    "finite": true,
+    "nonzero_all_paths": true,
+    "output_shape": [
+      440,
+      2,
+      418
+    ],
+    "frequency_comparison_excludes_bins_below_minus40db_of_direction_peak": true,
+    "magnitude_error_200_16000_hz_rms_db": 5.7899519909735316e-05,
+    "magnitude_error_200_16000_hz_max_abs_db": 0.0009429539469473589,
+    "phase_error_200_16000_hz_rms_rad_after_removing_documented_common_delay": 3.607746395386321e-06,
+    "magnitude_error_16100_20000_hz_rms_db": 0.00012336044098021465,
+    "dc_transfer_max_absolute_error": 1.3477890753899047e-05,
+    "first_last_8_samples_energy_fraction_max": 2.431157323571059e-14
+  },
+  "resampling_software_tolerances": {
+    "max_abs_200_16000hz_magnitude_db": 0.01,
+    "rms_phase_rad": 0.001
+  },
+  "sofa": {
+    "hrir": {
+      "path": "artifacts/iteration05/candidate-bank/c07/Calibration_Candidate_HRIR.sofa",
+      "sha256": "f02dd8cfc93a1d548fe6be24912ef8738be1d4f2f8bc7c423c8a7fc30ee2f04c",
+      "bytes": 2686685
+    },
+    "hrtf": {
+      "path": "artifacts/iteration05/candidate-bank/c07/Calibration_Candidate_HRTF.sofa",
+      "sha256": "b7694968ac73718f3f47c3090bd9c3d433bfc66ef6df448a18ba557c5c30b628",
+      "bytes": 12199750
+    }
+  },
+  "sample_rate_hz": 48000,
+  "samples": 418,
+  "directions": 440,
+  "baseline_coefficient_comparison": null,
+  "renderer": {
+    "config": {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/CamillaDSP.yml",
+      "sha256": "dc13bbbf435feba949bdad13bfa275238f33b74d8a11b0983ec54a9b6ee1e273",
+      "bytes": 3424
+    },
+    "fir_wav": {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/Virtual_Speakers.wav",
+      "sha256": "d82296cbfb0b9d0d3aa84eaf188fa9d61f65ea135b7c3c580437820c7484337e",
+      "bytes": 6746
+    },
+    "mono_firs": [
+      {
+        "path": "artifacts/iteration05/candidate-bank/c07/renderer/LS_LE.wav",
+        "sha256": "d99b99c4965d1b4e6f36c9db6b6784d92a1f440c8f4b942647f08a3b42116a92",
+        "bytes": 1730
+      },
+      {
+        "path": "artifacts/iteration05/candidate-bank/c07/renderer/LS_RE.wav",
+        "sha256": "9827659b3676e7b6369f8c83bf2a09379a44e2bd16e313ff8a88e080d064ac5d",
+        "bytes": 1730
+      },
+      {
+        "path": "artifacts/iteration05/candidate-bank/c07/renderer/RS_LE.wav",
+        "sha256": "1b7593497c6178d34bd0a2fe45cc5203d288f3da1b793113f52d3db47f3eed40",
+        "bytes": 1730
+      },
+      {
+        "path": "artifacts/iteration05/candidate-bank/c07/renderer/RS_RE.wav",
+        "sha256": "765ca766f3bf95c68db1941ceb465c23f0364ea6d4b36826af2696d33f597098",
+        "bytes": 1730
+      }
+    ],
+    "selection": {
+      "left_virtual_speaker": {
+        "requested_deg_m": [
+          30.0,
+          0.0,
+          1.47
+        ],
+        "selected_deg_m": [
+          30.0,
+          0.0,
+          1.47
+        ],
+        "source_index": 205,
+        "angular_error_deg": 0.0,
+        "radial_error_m": 0.0,
+        "angular_tolerance_deg": 1e-06,
+        "radial_tolerance_m": 1e-06
+      },
+      "right_virtual_speaker": {
+        "requested_deg_m": [
+          -30.0,
+          0.0,
+          1.47
+        ],
+        "selected_deg_m": [
+          330.0,
+          0.0,
+          1.47
+        ],
+        "source_index": 235,
+        "angular_error_deg": 3.498610149609868e-14,
+        "radial_error_m": 0.0,
+        "angular_tolerance_deg": 1e-06,
+        "radial_tolerance_m": 1e-06
+      },
+      "path_order": [
+        "LS_LE",
+        "LS_RE",
+        "RS_LE",
+        "RS_RE"
+      ],
+      "applied_delay_samples": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "coefficient_format": "IEEE float32 WAV; delays embedded as leading zeros"
+    },
+    "gain": {
+      "headroom_db": 6.0,
+      "per_path_l1_norm": [
+        15.65181760901696,
+        5.0800863986427585,
+        5.327387323987698,
+        14.751765073594784
+      ],
+      "unattenuated_peak_bound_left_right": [
+        20.97920493300466,
+        19.831851472237542
+      ],
+      "linear_input_gain": 0.023889715326570853,
+      "input_gain_db": -32.435780506748806,
+      "attenuated_peak_bound_left_right": [
+        0.5011872336272722,
+        0.47377728607058994
+      ],
+      "assumption": "Both input channels have absolute sample amplitudes <= 1; no extra downstream positive gain"
+    }
+  },
+  "camilladsp": {
+    "binary": {
+      "path": "tools/camilladsp-4.1.3/camilladsp",
+      "sha256": "e69090287d9af87eeb5720d59cf8ebf8cab1ed3adbe24de1dd60b66a47f5385b",
+      "bytes": 7993792
+    },
+    "config_check": {
+      "path": "artifacts/iteration05/candidate-bank/c07/camilladsp-config-check.log",
+      "sha256": "4869bb0e2472758e98751e6b097e741c983e9e3d848b88fbe1526104eafc2bd6",
+      "bytes": 200
+    },
+    "config_check_exit_code": 0,
+    "actual_runtime_cases": [
+      {
+        "name": "four_path_impulses",
+        "command": [
+          "/workspace/Personal-HRTF/tools/camilladsp-4.1.3/camilladsp",
+          "--loglevel",
+          "off",
+          "/workspace/Personal-HRTF/artifacts/iteration05/candidate-bank/c07/renderer/CamillaDSP.yml"
+        ],
+        "exit_code": 0,
+        "input": {
+          "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/four_path_impulses_input.f32le",
+          "sha256": "e4123f1fe72750dce096beb2be56a43ef44b72c3bb3954fe7a3599dc69232a68",
+          "bytes": 262144
+        },
+        "actual_output": {
+          "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/four_path_impulses_camilladsp_output.f32le",
+          "sha256": "6ab095cbeff1f4627da36aac46f3e9f62c6bd8b20109f2502af91da0c2d51056",
+          "bytes": 262144
+        },
+        "input_frames": 32768,
+        "output_frames": 32768,
+        "checked_frames": 32768,
+        "max_absolute_error_vs_direct_convolution": 9.151499315296352e-10,
+        "numerical_tolerance": 1.2129099858149147e-06,
+        "snr_db_vs_direct_convolution": 151.47745431591278,
+        "actual_peak_absolute": 0.02129099890589714,
+        "actual_peak_left_right": [
+          0.02129099890589714,
+          0.016955478116869926
+        ],
+        "expected_unreturned_tail_peak": 1.3714728425649473e-18,
+        "unexpected_extra_tail_peak": 0.0,
+        "alignment": "Compared at identical sample indices; no latency fitting, channel swapping, or normalization",
+        "status": "pass"
+      },
+      {
+        "name": "independent_stereo_broadband",
+        "command": [
+          "/workspace/Personal-HRTF/tools/camilladsp-4.1.3/camilladsp",
+          "--loglevel",
+          "off",
+          "/workspace/Personal-HRTF/artifacts/iteration05/candidate-bank/c07/renderer/CamillaDSP.yml"
+        ],
+        "exit_code": 0,
+        "input": {
+          "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/independent_stereo_broadband_input.f32le",
+          "sha256": "209c7c8ea6ace35fe5457d1b935468f203ae46aa872bd8809f7b4ebce0ee36ab",
+          "bytes": 262144
+        },
+        "actual_output": {
+          "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/independent_stereo_broadband_camilladsp_output.f32le",
+          "sha256": "be84a30f2e0b80f781e592ea870fdcb04d947f1f2975f4c6e1e16733f1ab9775",
+          "bytes": 262144
+        },
+        "input_frames": 32768,
+        "output_frames": 32768,
+        "checked_frames": 32768,
+        "max_absolute_error_vs_direct_convolution": 7.2772740333792996e-09,
+        "numerical_tolerance": 2.4886800354031742e-06,
+        "snr_db_vs_direct_convolution": 151.86915732085293,
+        "actual_peak_absolute": 0.14886800944805145,
+        "actual_peak_left_right": [
+          0.14886800944805145,
+          0.1446193903684616
+        ],
+        "expected_unreturned_tail_peak": 2.4865230006843236e-17,
+        "unexpected_extra_tail_peak": 0.0,
+        "alignment": "Compared at identical sample indices; no latency fitting, channel swapping, or normalization",
+        "status": "pass"
+      }
+    ]
+  },
+  "validation_scope": "SOFA/numerical fidelity/executed rendering only; no user match conclusion",
+  "license": "CC BY 4.0",
+  "attribution": "Brinkmann et al. (2019), A Cross-Evaluated Database of Measured and Simulated HRTFs Including 3D Head Meshes, Anthropometric Features, and Headphone Impulse Responses. JAES, doi:10.17743/jaes.2019.0024; HUTUBS data doi:10.14279/depositonce-8487",
+  "receiver_metadata_warning": "Source nominal +/-0.75m retained; not used as physical ear geometry or for delays",
+  "products": [
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/Calibration_Candidate_HRIR.sofa",
+      "sha256": "f02dd8cfc93a1d548fe6be24912ef8738be1d4f2f8bc7c423c8a7fc30ee2f04c",
+      "bytes": 2686685
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/Calibration_Candidate_HRTF.sofa",
+      "sha256": "b7694968ac73718f3f47c3090bd9c3d433bfc66ef6df448a18ba557c5c30b628",
+      "bytes": 12199750
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/camilladsp-config-check.log",
+      "sha256": "4869bb0e2472758e98751e6b097e741c983e9e3d848b88fbe1526104eafc2bd6",
+      "bytes": 200
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/CamillaDSP.yml",
+      "sha256": "dc13bbbf435feba949bdad13bfa275238f33b74d8a11b0983ec54a9b6ee1e273",
+      "bytes": 3424
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/LS_LE.wav",
+      "sha256": "d99b99c4965d1b4e6f36c9db6b6784d92a1f440c8f4b942647f08a3b42116a92",
+      "bytes": 1730
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/LS_RE.wav",
+      "sha256": "9827659b3676e7b6369f8c83bf2a09379a44e2bd16e313ff8a88e080d064ac5d",
+      "bytes": 1730
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/RS_LE.wav",
+      "sha256": "1b7593497c6178d34bd0a2fe45cc5203d288f3da1b793113f52d3db47f3eed40",
+      "bytes": 1730
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/RS_RE.wav",
+      "sha256": "765ca766f3bf95c68db1941ceb465c23f0364ea6d4b36826af2696d33f597098",
+      "bytes": 1730
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/renderer/Virtual_Speakers.wav",
+      "sha256": "d82296cbfb0b9d0d3aa84eaf188fa9d61f65ea135b7c3c580437820c7484337e",
+      "bytes": 6746
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/four_path_impulses_camilladsp_output.f32le",
+      "sha256": "6ab095cbeff1f4627da36aac46f3e9f62c6bd8b20109f2502af91da0c2d51056",
+      "bytes": 262144
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/four_path_impulses_input.f32le",
+      "sha256": "e4123f1fe72750dce096beb2be56a43ef44b72c3bb3954fe7a3599dc69232a68",
+      "bytes": 262144
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/four_path_impulses_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/independent_stereo_broadband_camilladsp_output.f32le",
+      "sha256": "be84a30f2e0b80f781e592ea870fdcb04d947f1f2975f4c6e1e16733f1ab9775",
+      "bytes": 262144
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/independent_stereo_broadband_input.f32le",
+      "sha256": "209c7c8ea6ace35fe5457d1b935468f203ae46aa872bd8809f7b4ebce0ee36ab",
+      "bytes": 262144
+    },
+    {
+      "path": "artifacts/iteration05/candidate-bank/c07/runtime-validation/independent_stereo_broadband_stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    }
+  ]
+}

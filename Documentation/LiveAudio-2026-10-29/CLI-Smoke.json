@@ -1,0 +1,11 @@
+{
+  "capture_peak_dbfs" : -21.34853,
+  "clipped_samples" : 0,
+  "error" : "",
+  "log_path" : "\/Users\/zhuyongfei\/Desktop\/FieldWeave\/Documentation\/LiveAudio-2026-10-29\/CLI-Support\/LiveAudio.log",
+  "original_output_uid" : "AppleUSBAudioEngine:TTGK Technology:NICEHCK NK1 Ultra:1100000:1",
+  "playback_peak_dbfs" : -44.49456,
+  "restored_output_uid" : "AppleUSBAudioEngine:TTGK Technology:NICEHCK NK1 Ultra:1100000:1",
+  "routed" : true,
+  "seconds" : 10.541629076004028
+}

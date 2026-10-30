@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "sample_rate": 48000,
+  "design": {
+    "width_taps": 2049,
+    "eq_taps": 4096,
+    "max_matrix_taps": 65536,
+    "resample_policy": "reject",
+    "tail_energy_tolerance": 1e-06
+  },
+  "headphone": {
+    "mode": "bypass"
+  },
+  "width": {
+    "interpolation": "pchip_log_hz",
+    "points": [
+      [
+        20,
+        1
+      ],
+      [
+        250,
+        1
+      ],
+      [
+        1000,
+        1
+      ],
+      [
+        6000,
+        1
+      ],
+      [
+        20000,
+        1
+      ]
+    ]
+  },
+  "center_imaging": {
+    "enabled": true,
+    "pan": 0,
+    "gain_db": 0
+  },
+  "externalization": {
+    "mode": "matrix_ir",
+    "kind": "measured_hrtf",
+    "normalization": "none",
+    "paths": {
+      "LL": {
+        "path": "c04/LS_LE.wav",
+        "channel": 0
+      },
+      "LR": {
+        "path": "c04/LS_RE.wav",
+        "channel": 0
+      },
+      "RL": {
+        "path": "c04/RS_LE.wav",
+        "channel": 0
+      },
+      "RR": {
+        "path": "c04/RS_RE.wav",
+        "channel": 0
+      }
+    },
+    "coordinates": {
+      "convention": "SOFA spherical: azimuth positive left, elevation positive up, distance metres",
+      "left_source": [
+        30,
+        0,
+        1.47
+      ],
+      "right_source": [
+        -30,
+        0,
+        1.47
+      ]
+    },
+    "provenance": "HUTUBS measured donor pp49, Personal-HRTF c04, commit 04c6c172a4e80c795656811b0eebd493d56af3e7. Measured DONOR binaural pair; NOT a measurement of this listener; listener match and localization benefit unvalidated. Brinkmann et al. (2019), JAES doi:10.17743/jaes.2019.0024; HUTUBS doi:10.14279/depositonce-8487. CC BY 4.0. Original Float32 48kHz four-path coefficients preserved; ±30 degrees, elevation 0, 1.47m. NICEHCK NK1 Ultra headphone EQ unavailable and bypassed."
+  },
+  "crossfeed": {
+    "enabled": false
+  },
+  "safety": {
+    "preamp_db": -3,
+    "auto_headroom": true,
+    "ceiling_dbfs": -1
+  }
+}

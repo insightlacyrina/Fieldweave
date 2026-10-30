@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "sample_rate": 48000,
+  "design": {
+    "width_taps": 2049,
+    "eq_taps": 4096,
+    "max_matrix_taps": 65536,
+    "resample_policy": "reject",
+    "tail_energy_tolerance": 1e-06
+  },
+  "headphone": {
+    "mode": "bypass"
+  },
+  "width": {
+    "interpolation": "pchip_log_hz",
+    "points": [
+      [
+        20,
+        1.2
+      ],
+      [
+        250,
+        1.2
+      ],
+      [
+        1000,
+        1.1
+      ],
+      [
+        6000,
+        1.3
+      ],
+      [
+        20000,
+        1.3
+      ]
+    ]
+  },
+  "center_imaging": {
+    "enabled": true,
+    "pan": 0,
+    "gain_db": 0
+  },
+  "externalization": {
+    "mode": "bypass"
+  },
+  "crossfeed": {
+    "enabled": true,
+    "curve": {
+      "interpolation": "pchip_log_hz",
+      "points": [
+        [
+          20,
+          0.12
+        ],
+        [
+          700,
+          0.09
+        ],
+        [
+          4000,
+          0.018
+        ],
+        [
+          20000,
+          0
+        ]
+      ]
+    },
+    "delay_ms": 0.25,
+    "allow_with_externalization": false
+  },
+  "safety": {
+    "preamp_db": -3,
+    "auto_headroom": true,
+    "ceiling_dbfs": -1
+  }
+}

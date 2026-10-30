@@ -1,0 +1,29 @@
+LIVE_READY Listening · NICEHCK NK1 Ultra
+LIVE_CONFIG Immersive
+LIVE_CONFIG Manual-EQ
+LIVE_CONFIG Manual-combined
+LIVE_CONFIG Manual-pan-width
+LIVE_CONFIG Neutral
+LIVE_CONFIG Studio
+LIVE_CONFIG Vintage Stereo
+LIVE_CONFIG c01
+LIVE_CONFIG c02
+LIVE_CONFIG c03
+LIVE_CONFIG c04
+LIVE_CONFIG c05
+LIVE_CONFIG c06
+LIVE_CONFIG c07
+Immersive: measured steady error -0.131 dB
+Manual-EQ: measured steady error -0.126 dB
+Manual-combined: measured steady error +0.014 dB
+Manual-pan-width: measured steady error +0.015 dB
+Neutral: measured steady error -0.000 dB
+Studio: measured steady error -0.059 dB
+Vintage Stereo: measured steady error +0.110 dB
+c01: measured steady error +0.164 dB
+c02: measured steady error -0.198 dB
+c03: measured steady error +0.171 dB
+c04: measured steady error +0.146 dB
+c05: measured steady error -0.058 dB
+c06: measured steady error -0.133 dB
+c07: measured steady error +0.098 dB

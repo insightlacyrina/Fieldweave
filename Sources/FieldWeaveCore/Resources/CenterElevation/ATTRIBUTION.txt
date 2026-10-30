@@ -1,0 +1,6 @@
+HUTUBS measured-donor elevation HRIR bank, CC BY 4.0.
+Brinkmann et al. (2019), A Cross-Evaluated Database of Measured and Simulated HRTFs Including 3D Head Meshes, Anthropometric Features, and Headphone Impulse Responses. JAES, doi:10.17743/jaes.2019.0024.
+HUTUBS dataset doi:10.14279/depositonce-8487.
+48kHz converted source: insightlacyrina/Personal-HRTF, commit 04c6c172a4e80c795656811b0eebd493d56af3e7.
+Derivation: FieldWeave selects same-donor +/-30 degree source directions at multiple elevations; unavailable azimuths use documented linear interpolation. No invented listener measurements or ear calibration.
+These are measured donor data, not measurements of this listener. Listener matching and elevation perception remain unvalidated.

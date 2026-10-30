@@ -1,0 +1,118 @@
+{
+  "scope": "Executed offline installed CamillaDSP against all seven Swift exported measured-donor FIR packages; asymmetric independent impulses checked at identical indices",
+  "source_commit": "04c6c172a4e80c795656811b0eebd493d56af3e7",
+  "results": {
+    "c01": {
+      "verified": true,
+      "sample_rate": 48000,
+      "matrix_taps": 418,
+      "expected_frames": 2465,
+      "actual_frames": 2465,
+      "max_absolute_error": 1.0842021724855044e-19,
+      "output_peak": 0.00040943779796361924,
+      "routes_verified": [
+        "LL left\u2192left",
+        "LR left\u2192right",
+        "RL right\u2192left",
+        "RR right\u2192right"
+      ],
+      "audio_device_opened": false
+    },
+    "c02": {
+      "verified": true,
+      "sample_rate": 48000,
+      "matrix_taps": 418,
+      "expected_frames": 2465,
+      "actual_frames": 2465,
+      "max_absolute_error": 1.6263032587282567e-19,
+      "output_peak": 0.0007668109163641928,
+      "routes_verified": [
+        "LL left\u2192left",
+        "LR left\u2192right",
+        "RL right\u2192left",
+        "RR right\u2192right"
+      ],
+      "audio_device_opened": false
+    },
+    "c03": {
+      "verified": true,
+      "sample_rate": 48000,
+      "matrix_taps": 418,
+      "expected_frames": 2465,
+      "actual_frames": 2465,
+      "max_absolute_error": 1.0842021724855044e-19,
+      "output_peak": 0.0003908067792654038,
+      "routes_verified": [
+        "LL left\u2192left",
+        "LR left\u2192right",
+        "RL right\u2192left",
+        "RR right\u2192right"
+      ],
+      "audio_device_opened": false
+    },
+    "c04": {
+      "verified": true,
+      "sample_rate": 48000,
+      "matrix_taps": 418,
+      "expected_frames": 2465,
+      "actual_frames": 2465,
+      "max_absolute_error": 2.168404344971009e-19,
+      "output_peak": 0.0005740324072539804,
+      "routes_verified": [
+        "LL left\u2192left",
+        "LR left\u2192right",
+        "RL right\u2192left",
+        "RR right\u2192right"
+      ],
+      "audio_device_opened": false
+    },
+    "c05": {
+      "verified": true,
+      "sample_rate": 48000,
+      "matrix_taps": 418,
+      "expected_frames": 2465,
+      "actual_frames": 2465,
+      "max_absolute_error": 1.6263032587282567e-19,
+      "output_peak": 0.0006448821462690828,
+      "routes_verified": [
+        "LL left\u2192left",
+        "LR left\u2192right",
+        "RL right\u2192left",
+        "RR right\u2192right"
+      ],
+      "audio_device_opened": false
+    },
+    "c06": {
+      "verified": true,
+      "sample_rate": 48000,
+      "matrix_taps": 418,
+      "expected_frames": 2465,
+      "actual_frames": 2465,
+      "max_absolute_error": 3.2526065174565133e-19,
+      "output_peak": 0.0005935056954622269,
+      "routes_verified": [
+        "LL left\u2192left",
+        "LR left\u2192right",
+        "RL right\u2192left",
+        "RR right\u2192right"
+      ],
+      "audio_device_opened": false
+    },
+    "c07": {
+      "verified": true,
+      "sample_rate": 48000,
+      "matrix_taps": 418,
+      "expected_frames": 2465,
+      "actual_frames": 2465,
+      "max_absolute_error": 2.168404344971009e-19,
+      "output_peak": 0.0006633347496390342,
+      "routes_verified": [
+        "LL left\u2192left",
+        "LR left\u2192right",
+        "RL right\u2192left",
+        "RR right\u2192right"
+      ],
+      "audio_device_opened": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.build/
+dist/
+.DS_Store
+.swiftpm/
+__pycache__/
+*.pyc
+release/
+# Machine-specific backups and runtime caches stay local.
+Documentation/**/Before/
+Documentation/**/Before-*/
+Documentation/**/CLI-Support/
+Documentation/**/Live-Support/
+Documentation/**/Native-FIR/
+Documentation/**/Packages/
+Documentation/**/*CoreAudio*.json
+Documentation/**/*Raw-Meters.json
+Documentation/**/Native-*.json
+Documentation/**/Below-Gate-Smoke.json
+Documentation/**/Native-App-Permission.log
