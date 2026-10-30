@@ -15,5 +15,7 @@ Documentation/**/Packages/
 Documentation/**/*CoreAudio*.json
 Documentation/**/*Raw-Meters.json
 Documentation/**/Native-*.json
+!Documentation/Center-Elevation-2026-10-29/Native-Live-Summary.json
+!Documentation/Center-Elevation-2026-10-29/Native-UI-Verification.json
 Documentation/**/Below-Gate-Smoke.json
 Documentation/**/Native-App-Permission.log

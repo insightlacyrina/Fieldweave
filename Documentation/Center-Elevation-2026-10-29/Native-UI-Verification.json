@@ -1,0 +1,58 @@
+{
+  "verified": true,
+  "completed_date": "2026-10-30",
+  "version": "0.4.0",
+  "build": 4,
+  "application_running": true,
+  "left_height_slider": {
+    "range_degrees": [
+      -45,
+      45
+    ],
+    "observed_degrees": [
+      0,
+      9,
+      45,
+      44.1,
+      -45,
+      0
+    ],
+    "synchronizes_bottom_knob": true
+  },
+  "bottom_height_knob": {
+    "replaces_bottom_pan_knob": true,
+    "accessibility_adjustment_observed": true,
+    "decrement_from_45_updates_left_slider_to_44_1": true
+  },
+  "left_pan_slider": {
+    "retained": true,
+    "observed_independent_change": [
+      0,
+      0.2,
+      0
+    ],
+    "height_remained_45_during_pan_change": true
+  },
+  "visual": {
+    "purple_center_moves_up_and_down": true,
+    "other_layers_and_origin_remain_fixed": true,
+    "inspection": "Native CUA window screenshots at 0, +45 and -45 degrees"
+  },
+  "save_reopen": {
+    "observed_degrees": -45,
+    "observed_profile": "c02",
+    "actual_engine_strategy": "measured_mid_replacement",
+    "record": "Native-reopened-measured-down45.json"
+  },
+  "exact_zero_after_native_step_round_trip": true,
+  "exact_zero_record": "Exact-Zero-Verification.json",
+  "pointer_drag_and_double_click_verified": false,
+  "pointer_test_boundary": "CUA coordinate clicks returned windowNotFoundAtPosition. Accessibility increments/decrements and native keyboard/menu actions were used; mouse gestures are not claimed as verified.",
+  "original_sound_parameters_restored": true,
+  "new_defaults": {
+    "elevation_degrees": 0,
+    "height_profile": "c02"
+  },
+  "device_volumes_mutes_and_active_route_match_initial_running_app": true,
+  "audio_summary": "Native-Live-Summary.json"
+}

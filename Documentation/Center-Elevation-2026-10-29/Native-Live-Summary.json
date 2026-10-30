@@ -1,0 +1,71 @@
+{
+  "verified": true,
+  "version": "0.4.0",
+  "nonzero_test_build": 3,
+  "nonzero_test_app_sha256": "7c4c0aad992922a97f9b4a7daa83719ab012b1eed080454948c71706c05c53b6",
+  "case_count": 7,
+  "clipped_samples": 0,
+  "max_abs_mean_error_db": 0.16709400470137722,
+  "records": [
+    {
+      "file": "Native-relative-up45.json",
+      "label": "relative-up45",
+      "degrees": 45,
+      "strategy": "relative_minimum_phase_cues",
+      "profile": "c02",
+      "mean_error_db": 0.13597688002404168
+    },
+    {
+      "file": "Native-reopened-measured-down45.json",
+      "label": "reopened-measured-down45",
+      "degrees": -45,
+      "strategy": "measured_mid_replacement",
+      "profile": "c02",
+      "mean_error_db": 0.10773071574217141
+    },
+    {
+      "file": "Native-measured-up45.json",
+      "label": "measured-up45",
+      "degrees": 45,
+      "strategy": "measured_mid_replacement",
+      "profile": "c02",
+      "mean_error_db": 0.03134239926888256
+    },
+    {
+      "file": "Native-measured-down45.json",
+      "label": "measured-down45",
+      "degrees": -45,
+      "strategy": "measured_mid_replacement",
+      "profile": "c02",
+      "mean_error_db": 0.12941793608960522
+    },
+    {
+      "file": "Native-baseline-zero.json",
+      "label": "baseline-zero",
+      "degrees": 0,
+      "strategy": "bypass",
+      "profile": null,
+      "mean_error_db": -0.1501278096065377
+    },
+    {
+      "file": "Native-relative-down45.json",
+      "label": "relative-down45",
+      "degrees": -45,
+      "strategy": "relative_minimum_phase_cues",
+      "profile": "c02",
+      "mean_error_db": 0.07214998622911964
+    },
+    {
+      "file": "Native-final-zero.json",
+      "label": "final-zero",
+      "degrees": 0,
+      "strategy": "bypass",
+      "profile": null,
+      "mean_error_db": -0.16709400470137722
+    }
+  ],
+  "zero_roundoff_fix": "Final build 4 additionally snaps UI residues below 1e-9 degrees to exact zero; nonzero DSP paths and bank are unchanged.",
+  "final_build": 4,
+  "final_app_sha256": "9a3daa4bab92d890b598db3754da041aa405c609d83b81d67af938bf1a12f377",
+  "exact_zero_native_check": "Exact-Zero-Verification.json"
+}
